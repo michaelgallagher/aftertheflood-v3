@@ -1,0 +1,11 @@
+{embed="embeds/.header" loc="page-not-found" page-title="Page not found" meta-title="Page not found"}
+
+<div class="section">
+	{exp:channel:entries channel="404-page" url_title="404-page" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+		{404-error-messages sort="random" limit="1"}
+			<p>{error-message}</p>
+		{/404-error-messages}
+	{/exp:channel:entries}
+</div>
+
+{embed="embeds/.footer"}

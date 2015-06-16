@@ -1,0 +1,603 @@
+/******************************************************************************************
+LANDING PAGE
+******************************************************************************************/
+
+/*the page and header colour */
+body.projects.list {background-color: #000;}
+.projects.list .container,
+.projects.list .header {
+	background-color: #000;
+}
+.projects.list .title {
+	color: #fff;
+	a {color: #fff;}
+	a:hover {color: $accent-color;}
+}
+/*
+	there has to a better way to do this ... right?
+	maybe the header bits should all be in the header file ...?
+*/
+
+
+
+body.projects.list {
+	.projects-list {
+		padding-bottom: 0;
+		h2 {
+			@include h2-serif;
+			padding: 36px 0 44px;
+			color: $accent-color;
+		}
+		li {
+			font-size: 1em; // reset for children
+			margin-bottom: 47px;
+			.title-img {
+				margin-left: -$small-screen-margin; margin-right: -$small-screen-margin;
+				h3 {
+					@include h2;
+					@include breakpoint(medium) {
+						font-size: 2.8em;
+					}
+					@include breakpoint(large) {
+						font-size: 4em;
+					}
+				}
+			}
+			.text {
+				padding-top: 16px;
+				h3 {
+					@include h2-small;
+				}
+				p {
+					font-size: 1.5em;
+				}
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
+				a:hover {
+					color: accent-color;
+				}
+			}
+		}
+		&.row-2 h2 {
+			margin-left: -$small-screen-margin; margin-right: -$small-screen-margin;
+			padding-left: $small-screen-margin-with-gutter; padding-right: $small-screen-margin-with-gutter;
+			border-top: 10px solid $accent-color;
+		}
+		@include breakpoint(medium) {
+			width: 50%;
+			float: left;
+			h2 {
+				color: #fff;
+				padding: 128px 0 58px;
+			}
+			ul {
+				@include clearfix;
+			}
+			li {
+				margin-bottom: 0;
+			}
+			.text {
+				height: 115px;
+			}
+			&.row-1 {
+				@include left-gutter;
+				h2, ul {
+					padding-right: 55px;
+				}
+				ul {
+					border-right: 3px solid #fff;
+					margin-right: -2px; // pull this border over the other a bit
+				}
+			}
+			&.row-2 {
+				@include right-gutter;
+				h2, ul {
+					padding-left: 55px;
+				}
+				ul {
+					border-left: 3px solid #fff;
+					margin-left: -1px; // pull this border over the other a bit
+				}
+				h2 {
+					margin-left: 0; margin-right: 0; padding-right: 0; border-top: none; // cancel mobile rule
+				}
+			}
+			li {
+				.title-img {
+					margin-left: 0; margin-right: 0;
+				}
+			}
+		}
+		@include breakpoint(large) {
+			h2 {
+				padding: 145px 0 64px;
+			}
+			&.row-1 {
+				h2, ul {
+					padding-right: 12%;
+				}
+			}
+			&.row-2 {
+				h2, ul {
+					padding-left: 12%;
+				}
+			}
+			li .text {
+				padding-top: 21px;
+				height: 129px;
+				p {
+					font-size: 1.7em;
+				}
+			}
+		}
+	}
+}
+
+/******************************************************************************************
+PROJECT PAGE
+******************************************************************************************/
+
+$v-margin-small: 45px;
+$v-margin-medium: 54px;
+$v-margin-large: 69px;
+
+$jumbo-v-margin-small: 88px;
+$jumbo-v-margin-medium: 100px;
+$jumbo-v-margin-large: 130px;
+
+
+body.projects.single {
+	// remove padding from top of page and apply it to heading section instead
+	.page {
+		padding-top: 0;
+	}
+	.heading-wrap {
+		padding-top: $header-height-small;
+		@include breakpoint(medium) {
+			padding-top: $header-height-medium;
+		}
+		@include breakpoint(large) {
+			padding-top: $header-height-large;
+		}
+		@include breakpoint(huge) {
+			padding-top: $header-height-huge;
+		}
+		height: 100vh;
+		@include box;
+	}
+	.heading {
+		float: left; // float so that content after heading can clear it, even if it's longer than .heading-wrap
+		width: 100%;
+		min-height: 100%; // min-height to let it stretch taller than screen height if text is long
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-ms-behavior: url(/js/third-party/backgroundsize.min.htc); // see https://github.com/louisremi/background-size-polyfill
+		.text {
+			@include screen-margins-with-gutters;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			@include breakpoint(medium) {
+				padding-top: 33px;
+				padding-bottom: 33px;
+			}
+			@include breakpoint(large) {
+				padding-top: 42px;
+				padding-bottom: 42px;
+			}
+			h1 {
+				@include h1-bottom-rule;
+			}
+			p {
+				@include h1;
+			}
+			h1 span, p {
+				max-width: 1050px;
+				display: block;
+			}
+			h1, p {
+				color: #fff;
+				border-color: #fff;
+			}
+			&.black * {
+				color: #000;
+				border-color: #000;
+			}
+			&.accent * {
+				color: $accent-color;
+				border-color: $accent-color;
+			}
+		}
+	}
+	.container .section {
+		padding-bottom: 45px;
+		@include breakpoint(medium) {padding-bottom: 54px}
+		@include breakpoint(large) {padding-bottom: 69px}
+	}
+	.for-client {
+		padding-top: 16px;
+		padding-bottom: 13px;
+		@include gutters;
+		@include breakpoint(medium) {
+			float: left;
+			width: percentage(3/10);
+			padding-top: 58px;
+		}
+		@include breakpoint(large) {
+			width: percentage(3/9);
+			padding-top: 66px;
+		}
+		.award {
+			display: block;
+			color: $gray-3;
+			font-style: italic;
+			@include breakpoint(medium) {
+				padding: 12px 40px 0 0;
+			}
+		}
+	}
+	.standfirst {
+		@include h2;
+		text-indent: 0;
+		@include gutters;
+		max-width: $max-paragraph-width;
+		@include breakpoint(medium) {
+			width: percentage(7/10);
+			float: left;
+			padding-top: 55px;
+		}
+		@include breakpoint(large) {
+			width: percentage(6/9);
+			padding-top: 65px;
+		}
+		@include breakpoint(huge) {
+			max-width: $max-paragraph-width-huge;
+			font-size: 3.3em;
+			line-height: (4.1em/3.3);
+		}
+
+	}
+	.body {
+		float: left;
+		width: 100%;
+		clear: both;
+		// set main column width
+		@include gutters;
+		margin-top: $jumbo-v-margin-small;
+		@include breakpoint(medium) {
+			width: percentage(7/10);
+			float: right;
+			margin-top: $jumbo-v-margin-medium;
+		}
+		@include breakpoint(large) {
+			width: percentage(6/9);
+			margin-top: $jumbo-v-margin-large;
+		}
+
+		&.first-no-standfirst {
+			margin-top: 16px;
+			clear: none;
+			@include breakpoint(medium) {
+				margin-top: 58px;
+			}
+			@include breakpoint(large) {
+				margin-top: 66px;
+			}
+		}
+		h2 {
+			border: 10px solid red;
+		}
+		h3 {
+			@include h3-bottom-rule;
+		}
+		h4.section-header {
+			margin: -32px 0 50px;
+			@include breakpoint(medium) {
+				margin: -82px 0 88px;
+			}
+			@include breakpoint(large) {
+				margin: -112px 0 138px;
+			}
+		}
+	}
+	blockquote {
+		clear: both;
+		float: left;
+		width: 100%;
+		@include clearfix;
+		margin: $jumbo-v-margin-small 0-$tiny-screen-margin 0;
+		@include breakpoint(small) {
+			margin: $jumbo-v-margin-small 0-$small-screen-margin 0;
+		}
+		@include breakpoint(medium) {
+			margin: $jumbo-v-margin-medium 0-$medium-screen-margin 0;
+		}
+		@include breakpoint(large) {
+			margin: $jumbo-v-margin-large 0-$large-screen-margin 0;
+		}
+		@include breakpoint(huge) {
+			margin: $jumbo-v-margin-large 0-$huge-screen-margin 0;
+		}
+		@include screen-margins;
+		p {
+			@include h2-serif;
+			@include gutters;
+			@include breakpoint(medium) {
+				width: percentage(7/10);
+				float: left;
+			}
+			@include breakpoint(large) {
+				width: percentage(6/9);
+			}
+		}
+	}
+	.img {
+		clear: both;
+		float: left;
+		width: 100%;
+		@include clearfix;
+		margin-top: $v-margin-small;
+		@include breakpoint(medium) {margin-top: $v-margin-medium}
+		@include breakpoint(large) {margin-top: $v-margin-large}
+		img {
+			display: block;
+			margin-bottom: 15px;
+		}
+		&.text {
+			.img-wrap {
+				@include gutters;
+				@include breakpoint(medium) {
+					width: percentage(7/10);
+					float: right;
+				}
+				@include breakpoint(large) {
+					width: percentage(6/9);
+				}
+			}
+			.caption {
+				@include gutters;
+				@include breakpoint(medium) {
+					width: percentage(3/10);
+					float: left;
+				}
+				@include breakpoint(large) {
+					width: percentage(2.5/9);
+				}
+			}
+		}
+		&.full {
+			.img-wrap {
+				@include negative-screen-margins;
+			}
+			.caption {
+				@include gutters;
+				@include breakpoint(medium) {
+					width: percentage(7/10);
+					float: right;
+				}
+				@include breakpoint(large) {
+					width: percentage(6/9);
+				}
+			}
+		}
+		&.small {
+			.caption {
+				p {
+					max-width: 400px;
+					@include breakpoint(huge) {
+						max-width: 475px;
+					}
+				}
+			}
+			@include breakpoint(medium) {
+				width: 50%;
+				@include gutters;
+				float: left;
+				clear: none;
+				.caption {
+					margin: -4px 0 0;
+				}
+				&.even {
+					float: right;
+				}
+				&.odd {
+					clear: both;
+				}
+			}
+			@include breakpoint(large) {
+				width: percentage(4/9);
+			}
+		}
+		&.left, &.right, &.left-bleed, &.right-bleed {
+			border: 10px solid red;
+		}
+		&.full.last-in-content {
+			margin-bottom: -45px;
+			@include breakpoint(medium) {
+				margin-bottom: -54px;
+			}
+			@include breakpoint(large) {
+				margin-bottom: -69px;
+			}
+			img {
+				margin-bottom: 0;
+			}
+			.caption {
+				margin: 15px 0 60px;
+
+			}
+		}
+	}
+	.video {
+		float: left;
+		width: 100%;
+		margin-top: $v-margin-small;
+		@include breakpoint(medium) {margin-top: $v-margin-medium}
+		@include breakpoint(large) {margin-top: $v-margin-large}
+		.player-wrap {
+			@include gutters;
+		}
+		.caption {
+			@include gutters;
+			@include breakpoint(medium) {
+				width: percentage(7/10);
+				float: right;
+			}
+			@include breakpoint(large) {
+				width: percentage(6/9);
+			}
+			p {
+				margin-top: 15px;
+			}
+		}
+		&.text {
+			@include breakpoint(medium) {
+				width: percentage(7/10);
+				float: right;
+			}
+			@include breakpoint(large) {
+				width: percentage(6/9);
+			}
+			.caption {
+				width: 100% !important;
+			}
+		}
+	}
+	.caption p {
+		max-width: $max-paragraph-width;
+		@include breakpoint(huge) {
+			max-width: $max-paragraph-width-huge;
+		}
+	}
+
+	.related-projects {
+		@include screen-margins;
+		padding-top: 20px;
+		padding-bottom: 0 !important;
+		border: 10px solid #000;
+		@include clearfix;
+		li {
+			font-size: 1em; // reset font size
+			padding-bottom: 42px;
+			* {
+				color: $text-color;
+			}
+			a:hover * {
+				color: $accent-color;
+				border-color: $accent-color;
+			}
+			a {
+				text-decoration: none;
+				display: block;
+			}
+			h3 {
+				@include h2;
+				@include h2-bottom-rule;
+			}
+			img {
+				display: none;
+			}
+			.summary {
+				display: block;
+				@include h2-small;
+			}
+			.client {
+				@include default-font;
+				color: $link-color;
+			}
+		}
+		@include below-breakpoint(medium) {
+			h2 {
+				@include h4;
+				border: none;
+				padding: 0;
+				margin-bottom: 41px;
+			}
+			li {
+				.title-img {
+					display: block;
+					opacity: 1;
+				}
+				h3 {
+					// override normal .title-img behavour for small screens – instead show h3 and no image
+					display: block;
+					opacity: 1;
+					background: none;
+					border: 3px solid $text-color !important;
+					border-width: 0 0 3px 0 !important;
+					padding: 0 0 9px 0;
+					margin-bottom: 8px !important;
+					position: relative;
+				}
+				a:hover h3 {
+					border-color: $accent-color !important;
+				}
+				.summary {
+					font-size: 2.1em;
+					padding-bottom: 4px;
+				}
+			}
+		}
+		@include breakpoint(medium) {
+			ul {
+				// counteract 10px border on this section
+				margin: 0 -10px;
+			}
+			h2 {
+				margin: 15px ($gutter-half-width-medium - 10px) 58px;
+			}
+			li {
+				width: 50%;
+				@include gutters;
+				float: left;
+				&.i2 {
+					clear: both;
+				}
+				.summary {
+					padding-top: 16px;
+				}
+				img {
+					display: block;
+				}
+			}
+		}
+		@include breakpoint(large) {
+			h2 {
+				margin: 24px ($gutter-half-width-large - 10px) 56px;
+			}
+			li {
+				width: 33.33333%;
+				&.i2 {
+					clear: none;
+				}
+				&.i3 {
+					clear: both;
+				}
+			}
+		}
+		@include breakpoint(huge) {
+			li {
+				width: 25%;
+				&.i3 {
+					clear: none;
+				}
+				&.i4 {
+					clear: both;
+				}
+			}
+		}
+	}
+
+	.section.white {
+		p, ul, li, h2, h3, h4 {
+			color: #fff;
+			border-color: #fff;
+		}
+		a {
+			color: #fff;
+			border-color: $gray-4;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+	# Stop hotlinking to web fonts
+#	SetEnvIfNoCase Referer "^https?://([^/]*)?fh\.local:5757/" local_ref=1
+#	SetEnvIfNoCase Referer "^https?://([^/]*)?80.82.125.68/" local_ref=1
+#	SetEnvIfNoCase Referer "^https?://([^/]*)?www\.aftertheflood\.co/" local_ref=1
+SetEnvIfNoCase Referer "^https?://([^/]*)?dev\.aftertheflood\.co/" local_ref=1
+SetEnvIf Referer ^$ local_ref=1
+<FilesMatch "\.(eot|ttf|woff)$">
+	Order Allow,Deny
+	Allow from env=local_ref
+</FilesMatch>

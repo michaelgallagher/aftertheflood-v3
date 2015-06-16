@@ -1,0 +1,23 @@
+{embed="embeds/.header" loc="contact" page-title="Contact" meta-title="Contact"}
+
+<div class="section contact">
+	{if segment_2=="thankyou"}
+		<p>Thank you for your message</p>
+	{/if}
+	{if segment_2!="thankyou"}
+		<p>Got a question? Get in touch</p>
+		
+		{exp:freeform:form form_name="contact_form" form:class="contact" form_id="2" required="email|message" return="contact/thankyou"}
+			{if freeform:no_results}
+				Form Not Found.
+			{/if}
+			<label>Email</label>
+			<input type="text" name="email" value="" id="freeform_email" maxlength="150" placeholder="email@youraddress.com" />
+			<label>Message</label>
+			<textarea name="message" cols="50" rows="6" id="freeform_message" placeholder="type your message in here . . . "></textarea>
+			{freeform:submit attr:class="submit" attr:value="Send"}
+		{/exp:freeform:form}
+	{/if}
+</div>
+
+{embed="embeds/.footer"}

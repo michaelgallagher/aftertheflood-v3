@@ -1,0 +1,166 @@
+html.journal, html.playbook {
+	background: #000;	
+}
+body.article {
+	.container {
+		background: #000;
+		p, h1, h2, h3, h4, li {
+			color: #fff;
+		}
+	}
+	.body {
+		@include gutters;
+	}
+	.intro {
+		font-style: italic;
+	}
+	p.article-date, .caption p, a, .caption p a {
+		color: $gray-3;
+	}
+	.article-date, .intro {
+		padding-top: 16px;
+		@include breakpoint(large) {
+			padding-top: 23px;
+		}
+	}
+	.most-recent {
+		font-style: italic;
+		color: #fff;
+	}
+	.container h1 {
+		@include article-h1;
+	}
+	.img, .video {
+		margin: 46px 0 42px;
+	}
+	.caption {
+		margin-top: 14px;
+	}
+	blockquote {
+		p {
+			@include h2;
+			text-indent: 0;
+			margin: 41px 0;
+			@include breakpoint(large) {
+				margin: 60px 0;
+			}
+		}
+	}
+	.body {
+		@include screen-margins;
+		p {
+			text-indent: 2em;
+			&.first {
+				text-indent: 0;
+			}
+		}
+		a {
+			color: #fff;
+			border-color: $gray-4;
+			&:hover {
+				color: $gray-3;
+			}
+		}
+		padding-bottom: 45px;
+	}
+	.sub-nav {
+		@include screen-margins-with-gutters;
+		background: $gray-6;
+		padding-bottom: 5px;
+		h4 {
+			color: $gray-4;
+			padding: 16px 0 7px 0;
+		}
+		li {
+			margin-bottom: 28px;
+			a {
+				border-bottom: 3px solid $gray-4;
+				padding-bottom: 10px;
+				color: $gray-4;
+				text-decoration: none;
+				display: block;
+			}
+			&.selected a, a:hover {
+				color: #fff;
+				border-color: #fff;
+			}
+		}
+	}
+	@include breakpoint(medium) {
+		// 2 col layout
+		.container {
+			@include screen-margins;
+			@include clearfix;
+			background: #000 url(/images/site/article-bg.gif) center top repeat-y;
+		}
+		.body {
+			width: percentage(7/10);
+			padding: 0 $medium-screen-margin 0 $gutter-half-width-medium;
+			@include left-gutter;
+			float: left;
+			background: #000;
+			.pad {
+				padding-top: 50px;
+			}
+		}
+		.caption p {
+			width: 66.66%;
+		}
+		.sub-nav {
+			width: percentage(3/10);
+			float: right;
+			border-left: $gutter-half-width-medium solid #000;
+			padding-left: 20px;
+			padding-right: 20px;
+			@include box;
+			ul {
+				padding-bottom: 15px;
+			}
+			li, h4 {
+				margin-right: -($medium-screen-margin);
+			}
+		}
+		// full height columns - based on http://css-tricks.com/fluid-width-equal-height-columns/
+		.container {
+			overflow: hidden;
+		}
+		.body, .sub-nav {
+			margin-bottom: -99999px;
+			padding-bottom: 99999px;
+		}
+	}
+	@include breakpoint(large) {
+		.body {
+			width: percentage(6/9);
+			padding-right: $large-screen-margin !important;
+			.pad {
+				padding-top: 69px;
+			}
+		}
+		.caption p {
+			width: 50%;
+		}
+		.sub-nav {
+			width: percentage(3/9);
+			padding-left: 30px;
+			padding-right: 30px;
+			border-width: $gutter-half-width-large;
+			h4 {
+				padding: 23px 0 10px 0;
+			}
+			li, h4 {
+				margin-right: -($large-screen-margin);
+			}
+		}
+	}
+	@include breakpoint(huge) {
+		.body {
+			padding-right: $huge-screen-margin !important;
+		}
+		.sub-nav {
+			li, h4 {
+				margin-right: -($huge-screen-margin);
+			}
+		}
+	}
+}

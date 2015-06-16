@@ -1,0 +1,28 @@
+html.page-not-found {
+	background: #F01446;
+	height: 100%;
+	padding: 0;
+	.container {
+		background: #F01446;
+		margin: 0;
+		height: 100%;
+		p {
+			@include gutters;
+			font-size: 3em;
+			line-height: 1.1em;
+			color: #fff;
+			padding-top: 40px;
+			max-width: none;
+			@include breakpoint(medium) {
+				font-size: 6em;
+			}
+			@include breakpoint(large) {
+				font-size: 7em;
+				margin-right: percentage(1/8);
+			}
+		}
+	}
+	.footer, .push {
+		display: none;
+	}
+}

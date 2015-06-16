@@ -1,0 +1,17 @@
+<ul>
+	{exp:channel:entries channel="projects" limit="100" disable="categories|category_fields|member_data|trackbacks|pagination" search:projects-feature-under="{embed:show}" orderby="projects-weight|date" sort="desc|desc"}
+		<li>
+			<a href="{url_title_path="projects"}" class="title-img-wrap">
+				<div class="title-img">
+					<h3>{title}</h3>
+					<img src="{exp:ce_img:single src="{projects-main-image}{image-file}{/projects-main-image}" width="650" height="365" crop="yes" quality="65" url_only="yes"}" alt="{title}" />
+				</div>
+				<div class="text">
+					<h3>{projects-summary}</h3>
+					<p>{projects-client}</p>
+				</div>
+			</a>
+		
+		</li>
+	{/exp:channel:entries}
+</ul>

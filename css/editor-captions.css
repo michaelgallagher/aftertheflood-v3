@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Tiempos';
+	src: url('/css/fonts/TiemposTextWeb-Regular.eot'); /* IE9 Compat Modes */
+	src: url('/css/fonts/TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/css/fonts/TiemposTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Tiempos';
+	src: url('/css/fonts/TiemposTextWeb-RegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('/css/fonts/TiemposTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/css/fonts/TiemposTextWeb-RegularItalic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: normal;
+    font-style: italic;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 10px;
+	font: 15px "Tiempos", georgia;
+	line-height: 21px;	
+}
+
+p, label, li, h2, h3, h4 {
+	font: 15px "Tiempos", georgia;
+	line-height: 21px;	
+}
+p {
+	text-indent: 1em;
+}
+p:first-of-type {
+	text-indent: 0;
+}
+h4 {
+	font-style: italic;
+	margin: 1em 0 12px 0;
+}
+.cke_editable ul {
+	padding: 10px 0;
+}
+.cke_editable li {
+	list-style: none;
+	padding-left: 1em;
+}
+.cke_editable li:before {
+	display: inline-block;
+	content: "–";
+	width: 1em;
+	margin-left: -1em;
+}
+
+a { color: rgb(120, 119, 118); text-decoration: underline; }
+
+a:focus, a:active { outline: none; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }

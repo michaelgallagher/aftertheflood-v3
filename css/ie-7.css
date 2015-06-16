@@ -1,0 +1,67 @@
+/* IE7 gets relative header*/
+.header {
+	position: relative !important;
+}
+.page {
+	padding-top: 0 !important;
+}
+
+.header .sections li {
+	zoom: 1;
+	display: inline;
+}
+
+body.projects.single .heading-wrap {
+	padding-top: 0;
+}
+
+/* footer */
+
+.footer {
+	z-index: 100;	
+}
+
+.footer .reg {
+	width: 100%;
+	display: block;
+	position: relative;
+	top: -18px;
+}
+
+/* ARTICLE PAGES */
+
+body.article .body, body.article .sub-nav {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+body.article .container, body.article .sub-nav {
+	background: #000;
+}
+
+/* BOX SIZING BUGS */
+
+body.projects.list .projects-list li {
+	zoom: 1;
+}
+body.projects.list .title-img {
+	height: 209px;
+}
+.section {
+	zoom: 1;
+}
+body.projects p.standfirst, body.projects .body {
+	width: 593px !important;
+}
+body.projects.single .standfirst, body.projects.single .body, body.projects.single .img {
+	float: none;
+	clear: both;
+	behavior: url() !important; /* boxsizing.htc causes mayhem on this for some reason! */
+}
+
+div.small-images .img {
+	behavior: url() !important; /* boxsizing.htc causes mayhem on this for some reason! */
+	width: 415px !important;
+}
+
+

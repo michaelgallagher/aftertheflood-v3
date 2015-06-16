@@ -1,0 +1,38 @@
+<span data-picture data-alt="{embed:alt}">
+
+	<span data-src="{exp:ce_img:single src="{embed:src}" width="650" height="385" crop="yes" quality="80" url_only="yes"}"></span>
+
+{if embed:image-size=="full"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="1280" height="640" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="1280" height="640" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+{if embed:image-size=="half-short"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="1440" height="1080" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="1440" height="1080" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+{if embed:image-size=="half-tall"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="720" height="1080" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="720" height="1080" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+{if embed:image-size=="third"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="650" height="650" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="650" height="650" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+{if embed:image-size=="fourth"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="720" height="1080" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="720" height="1080" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+{if embed:image-size=="home-primary"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="1280" height="640" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="1280" height="640" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+{if embed:image-size=="home-secondary"}
+	<span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="640" height="427" quality="80" url_only="yes"}" data-media="(min-width: 650px)"></span>
+	<!--[if (lt IE 9) & (!IEMobile)]><span data-src="{exp:ce_img:single src="{embed:src}" crop="yes|{embed:crop},center" width="640" height="427" quality="80" url_only="yes"}"></span><![endif]-->
+{/if}
+
+	{!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. --}
+	<noscript>
+		<img src="{exp:ce_img:single src="{embed:src}" width="650" quality="80" url_only="yes"}" alt="{embed:alt}">
+	</noscript>
+</span>

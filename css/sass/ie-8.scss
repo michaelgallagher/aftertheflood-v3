@@ -1,0 +1,53 @@
+$old-ie: true;
+$fixed-width: 980px;
+
+@import "global.scss";
+
+body, html {
+	background: #ddd;
+}
+
+.header {
+	width: $fixed-width;
+	margin: 0 auto;
+	left: auto;
+	right: auto;
+}
+
+.footer {
+	position: relative;
+	z-index: 0;
+}
+.container {
+	margin-bottom: 0 !important;
+}	
+
+.footer .logo {
+	height: 119px;
+	background: url(/images/site/atf-logo.png) center bottom no-repeat;
+	img {
+		display: none;
+	}
+}
+
+
+.title-img {
+	h2, h3, h4 {
+		display: none !important;
+	}
+}
+a.title-img-wrap:hover {
+	.title-img {
+		h2, h3, h4 {
+			display: block !important;
+		}
+	}
+}
+
+// PROJECTS 
+
+body.projects {
+	.heading {
+		height: 600px;
+	}
+}

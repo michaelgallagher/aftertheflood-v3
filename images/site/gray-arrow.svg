@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="20px" height="9px" viewBox="0 0 20 9" enable-background="new 0 0 20 9" xml:space="preserve">
+  <g>
+    <defs>
+      <rect id="SVGID_1_" y="0.41" width="20" height="8.18"/>
+    </defs>
+    <clipPath id="SVGID_2_">
+      <use xlink:href="#SVGID_1_" overflow="visible"/>
+    </clipPath>
+    <line clip-path="url(#SVGID_2_)" fill="none" stroke="#939291" x1="0" y1="4.5" x2="19.266" y2="4.5"/>
+    <polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#939291" points="15.261 0.776 19.266 4.5 15.261 8.224 "/>
+  </g>
+</svg>

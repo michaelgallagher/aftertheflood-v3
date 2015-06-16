@@ -1,0 +1,237 @@
+/******************************************************************************************
+ACCENT COLOR
+******************************************************************************************/
+
+// Update the RGB value below to change the accent color across the site
+
+$accent-color: rgb(245, 200, 30);
+
+/******************************************************************************************
+SASS variables
+******************************************************************************************/
+
+$accent-color-pale: mix($accent-color, #fff, 40%);
+$accent-color-dark: rgb(135, 118, 60);
+
+$text-color: #000;
+$gray-1: rgb(240, 239, 238);
+$gray-2: rgb(202, 201, 200);
+$gray-3: rgb(168, 167, 166);
+$gray-4: rgb(147, 146, 145);
+$gray-5: rgb(120, 119, 118);
+$gray-6: rgb(35, 34, 33);
+
+$link-color: $gray-4;
+
+// screen margins from medium upwards have 1/2 gutter width removed from them
+
+$huge-screen-margin: 94px; // 100px with gutters
+$large-screen-margin: 69px; // 75px with gutters
+$medium-screen-margin: 45px; // 60px with gutters
+$small-screen-margin: 25px;
+$tiny-screen-margin: 25px;
+
+$huge-screen-margin-with-gutter: 100px;
+$large-screen-margin-with-gutter: 75px;
+$medium-screen-margin-with-gutter: 60px;
+$small-screen-margin-with-gutter: 25px;
+$tiny-screen-margin-with-gutter: 25px;
+
+$header-height-small: 54px;
+$header-height-medium: 44px;
+$header-height-large: 40px;
+$header-height-huge: 51px;
+
+// $footer-height-small: 473px; // this is in design but is too tall for iPhone
+$footer-height-small: 330px;
+$footer-height-medium: 361px;
+$footer-height-large: 450px;
+
+$gutter-half-width-medium: 15px;
+$gutter-half-width-large: 6px;
+
+$max-paragraph-width: 660px;
+$max-paragraph-width-huge: 760px;
+
+
+/******************************************************************************************
+SASS mixins
+******************************************************************************************/
+
+// based on combination of http://jakearchibald.github.io/sass-ie/ and http://css-tricks.com/media-queries-sass-3-2-and-codekit/
+
+$huge-screen: 1500px;
+$large-screen: 1000px;
+$medium-screen: 650px;
+$small-screen: 450px;
+
+$fixed-width: 0 !default;
+$old-ie: false !default;
+
+@mixin breakpoint($point) {
+	// If we're outputting for a fixed media query set...
+	@if $old-ie {
+		// ...and if we should apply these rules...
+		@if $point == huge {
+			@if $fixed-width >= $huge-screen { @content; }
+		}
+		@else if $point == large {
+			@if $fixed-width >= $large-screen { @content; }
+		}
+		@else if $point == medium {
+			@if $fixed-width >= $medium-screen { @content; }
+		}
+		@else if $point == small {
+			@if $fixed-width >= $small-screen { @content; }
+		}
+		@else {
+			@if $fixed-width >= $point { @content; }
+		}
+	}
+	@else {
+		// Otherwise, output it using a regular media query
+		@if $point == huge {
+			@media screen and (min-width: $huge-screen) { @content; }
+		}
+		@else if $point == large {
+			@media screen and (min-width: $large-screen) { @content; }
+		}
+		@else if $point == medium {
+			@media screen and (min-width: $medium-screen)  { @content; }
+		}
+		@else if $point == small {
+			@media screen and (min-width: $small-screen)  { @content; }
+		}
+		@else {
+			@media screen and (min-width: $point) { @content; }
+		}
+	}
+}
+@mixin below-breakpoint($point) {
+	// If we're outputting for a fixed media query set...
+	@if $old-ie {
+		// ...and if we should apply these rules...
+		@if $point == huge {
+			@if $fixed-width < $huge-screen { @content; }
+		}
+		@else if $point == large {
+			@if $fixed-width < $large-screen { @content; }
+		}
+		@else if $point == medium {
+			@if $fixed-width < $medium-screen { @content; }
+		}
+		@else if $point == small {
+			@if $fixed-width < $small-screen { @content; }
+		}
+	}
+	@else {
+		// Otherwise, output it using a regular media query
+		@if $point == huge {
+			@media screen and (max-width: $huge-screen - 1) { @content; }
+		}
+		@else if $point == large {
+			@media screen and (max-width: $large-screen - 1) { @content; }
+		}
+		@else if $point == medium {
+			@media screen and (max-width: $medium-screen - 1)  { @content; }
+		}
+		@else if $point == small {
+			@media screen and (max-width: $small-screen - 1)  { @content; }
+		}
+	}
+}
+
+@mixin box {
+	box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; *behavior: url(/js/third-party/boxsizing.htc);
+}
+
+@mixin clearfix {
+	&:before, &:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+	zoom: 1;
+}
+
+@mixin gutters {
+	@include breakpoint(medium) {
+		padding-left: $gutter-half-width-medium;
+		padding-right: $gutter-half-width-medium;
+	}
+	@include breakpoint(large) {
+		padding-left: $gutter-half-width-large;
+		padding-right: $gutter-half-width-large;
+	}
+	@include box;
+}
+@mixin left-gutter {
+	@include breakpoint(medium) {
+		padding-left: $gutter-half-width-medium;
+	}
+	@include breakpoint(large) {
+		padding-left: $gutter-half-width-large;
+	}
+	@include box;
+}
+@mixin right-gutter {
+	@include breakpoint(medium) {
+		padding-right: $gutter-half-width-medium;
+	}
+	@include breakpoint(large) {
+		padding-right: $gutter-half-width-large;
+	}
+	@include box;
+}
+
+@mixin screen-margins {
+	padding-left: $tiny-screen-margin; padding-right: $tiny-screen-margin;
+	@include breakpoint(small) {padding-left: $small-screen-margin; padding-right: $small-screen-margin}
+	@include breakpoint(medium) {padding-left: $medium-screen-margin; padding-right: $medium-screen-margin}
+	@include breakpoint(large) {padding-left: $large-screen-margin; padding-right: $large-screen-margin}
+	@include breakpoint(huge) {padding-left: $huge-screen-margin; padding-right: $huge-screen-margin}
+}
+
+@mixin screen-margins-with-gutters {
+	padding-left: $tiny-screen-margin-with-gutter; padding-right: $tiny-screen-margin-with-gutter;
+	@include breakpoint(small) {padding-left: $small-screen-margin-with-gutter; padding-right: $small-screen-margin-with-gutter}
+	@include breakpoint(medium) {padding-left: $medium-screen-margin-with-gutter; padding-right: $medium-screen-margin-with-gutter}
+	@include breakpoint(large) {padding-left: $large-screen-margin-with-gutter; padding-right: $large-screen-margin-with-gutter}
+	@include breakpoint(huge) {padding-left: $huge-screen-margin-with-gutter; padding-right: $huge-screen-margin-with-gutter}
+}
+
+@mixin negative-screen-margins {
+	margin-left: -$tiny-screen-margin; margin-right: -$tiny-screen-margin;
+	@include breakpoint(small) {margin-left: -$small-screen-margin; margin-right: -$small-screen-margin}
+	@include breakpoint(medium) {margin-left: -$medium-screen-margin; margin-right: -$medium-screen-margin}
+	@include breakpoint(large) {margin-left: -$large-screen-margin; margin-right: -$large-screen-margin}
+	@include breakpoint(huge) {margin-left: -$huge-screen-margin; margin-right: -$huge-screen-margin}
+}
+
+@mixin negative-screen-with-gutters {
+	margin-left: -$tiny-screen-margin-with-gutter; margin-right: -$tiny-screen-margin-with-gutter;
+	@include breakpoint(small) {margin-left: -$small-screen-margin-with-gutter; margin-right: -$small-screen-margin-with-gutter}
+	@include breakpoint(medium) {margin-left: -$medium-screen-margin-with-gutter; margin-right: -$medium-screen-margin-with-gutter}
+	@include breakpoint(large) {margin-left: -$large-screen-margin-with-gutter; margin-right: -$large-screen-margin-with-gutter}
+	@include breakpoint(huge) {margin-left: -$huge-screen-margin-with-gutter; margin-right: -$huge-screen-margin-with-gutter}
+}
+
+
+// SASS imports
+
+@import "third-party/reset.min.scss";
+@import "../../js/third-party/owl-carousel-2/owl.carousel.scss";
+@import "partials/_typography.scss";
+@import "partials/_layout.scss";
+@import "partials/_header.scss";
+@import "partials/_footer.scss";
+@import "partials/_dev-tools.scss";
+@import "partials/_common-elements.scss";
+@import "partials/_home.scss";
+@import "partials/_article.scss";
+@import "partials/_about.scss";
+@import "partials/_contact.scss";
+@import "partials/_projects.scss";
+@import "partials/_404.scss";

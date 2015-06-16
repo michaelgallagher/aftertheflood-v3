@@ -1,0 +1,273 @@
+{embed="embeds/.header" loc="home"}
+
+<div class="section intro">
+	<p>After the flood<br /><em>a data design studio</em></p>
+</div>
+
+<div class="featured-projects">
+	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+		<?php
+			
+			/*--------------------------------------------------------
+			LOAD IN OUR DATA
+			--------------------------------------------------------*/
+			
+			$entries = array();
+			$current_set = -1;
+			$section_titles = array();
+		?>
+		{home-featured-projects var_prefix="projects-list"}
+			{projects-list:project var_prefix="project"}
+				<?php
+					// loop through all featured projects, and devide them into separate arrays based on titles
+					if ("{projects-list:section-title}"!="") {
+						$current_set++;
+						$section_titles[] = '{projects-list:section-title}'; // todo: check EE is escaping single quotes
+						// start new array
+						$entries[$current_set] = array();
+					}
+					// push this entry on to end of current set
+					$entries[$current_set][] = array (
+						"image-size" => (int) substr("{projects-list:image-size}", 1, 1), // removes "c" and turns into integer
+						"bleed" => "{projects-list:bleed}",
+						"image-override" => "{projects-list:image}",
+						"image" => "{project:projects-main-image}{image-file}{/project:projects-main-image}",
+						"url_title" => "{project:url_title}",
+						"title" => "{project:title}",
+						"summary" => "{exp:ld_util:htmlspecialchars}{project:projects-summary}{/exp:ld_util:htmlspecialchars}",
+						"client" => "{exp:ld_util:htmlspecialchars}{project:projects-client}{/exp:ld_util:htmlspecialchars}",
+						"award" => "{project:projects-award}",
+						"side" => "",
+						"smaller" => "",
+						"text-side" => substr("{projects-list:image-size}", 2, 1), // grabs just the "l" or "r" for full width images
+						"first-3" => ""
+					)
+				?>
+			{/projects-list:project}
+		{/home-featured-projects}
+			
+		<?php
+			
+			// for each project, figure out which side it's going to be on, and whether it needs the .smaller class (to absolutely position it in row)
+			
+			foreach ($entries as &$set) { // & here is intentional!!! see http://stackoverflow.com/questions/6754710/php-replace-array-value-doesnt-stay-after-foreach-loop
+				$new_row = true;
+				for ($i = 0; $i < count($set); $i++) {
+
+					// if it's not full width...
+					if ($set[$i]['image-size'] < 6) {
+
+						// if we're at start of new row
+						if ($new_row) {
+							// put this image on left
+							$set[$i]['side'] = "left";
+							// if we're on last in set
+							if ($i == count($set) - 1) {
+								// start new row
+								$new_row = true;
+							// otherwise ...
+							} else {
+								// if next image is bigger (and isn't a full-width one), mark this one as .smaller
+								if (($set[$i + 1]['image-size'] > $set[$i]['image-size'] && $set[$i + 1]['image-size'] < 6) || ($set[$i + 1]['image-size'] == $set[$i]['image-size'] && $set[$i + 1]['bleed']=='bleed' && $set[$i]['bleed']=='')) {
+									$set[$i]['smaller'] = " smaller";
+								}
+	
+								$new_row = false;
+							}
+						
+						// if row is already open
+						} else {
+							// put this image on right
+							$set[$i]['side'] = "right";
+							// if previous image is bigger, mark this one as .smaller
+							if ($set[$i - 1]['image-size'] > $set[$i]['image-size'] || ($set[$i - 1]['image-size'] == $set[$i]['image-size'] && $set[$i - 1]['bleed']=='bleed' && $set[$i]['bleed']=='')) {
+								$set[$i]['smaller'] = " smaller";
+							}
+
+							// start new row
+							$new_row = true;
+							
+						}
+					
+					// if it is full width...
+					} else {
+						$set[$i]['side'] = "full ";
+						
+						// create class for which side text will be on
+						$set[$i]['text-side'] = " text-" . $set[$i]['text-side'];
+						
+						// start new row
+						$new_row = true;
+					}
+					
+					// while we're at it, mark first three in each set so mobiles can just show those
+					if ($i < 3) $set[$i]['first-3'] = " first-3";
+
+				}
+			}
+
+			/*--------------------------------------------------------
+			OUTPUT SOME CODE!
+			--------------------------------------------------------*/
+							
+			//include the CE Image class
+			if (!class_exists( 'CE_image')) {
+				require PATH_THIRD . 'ce_img/libraries/Ce_image.php';
+			}
+
+			$current_set = 0;
+			
+			foreach ($entries as &$set) {
+					
+				// output title and start this group
+				echo '<h2>' . $section_titles[$current_set] . '</h2><ul>';
+
+				$output_some = false;
+
+				// add each project
+				foreach ($set as $project) {
+										
+					// open a new row if we're adding a left or full-width one
+					if ($project['side'] != "right") {
+						if ($output_some) { // if we're not on first row, close the one we've just done
+							echo '</div>';
+						}
+						echo '<div class="row">';
+						$output_some = true;
+					}
+
+					//create LARGE CE Image
+					$ce_image = new Ce_image(
+						array(
+							'width' => 850,
+							'height' => 478,
+							'allow_scale_larger' => TRUE,
+							'quality' => 65,
+							'save_type' => 'jpg',
+							'unique' => 'directory_name',
+							'crop' => true
+						)
+					);
+					$ce_image->make($project['image']); // create the image
+					$large_image_url = $ce_image->get_relative_path(); // get the image url
+					$ce_image->close(); // close the image
+
+					//create SMALL CE Image
+					$ce_image = new Ce_image(
+						array(
+							'width' => 650,
+							'height' => 365,
+							'allow_scale_larger' => TRUE,
+							'quality' => 65,
+							'save_type' => 'jpg',
+							'unique' => 'directory_name',
+							'crop' => true
+						)
+					);
+					$ce_image->make($project['image']); // create the image
+					$small_image_url = $ce_image->get_relative_path(); // get the image url
+					$ce_image->close(); // close the image
+										
+					// create list item
+					?>
+					
+					<li class="c<?php echo $project['image-size'] . ' ' . $project['bleed'] . ' ' . $project['side'] . $project['smaller'] . $project['text-side'] . $project['first-3']; ?>">
+						<a href="/projects/<?php echo $project['url_title'] ?>" class="title-img-wrap">
+							<div class="title-img">
+								<h3><?php echo $project['title'] ?></h3>
+								<picture>
+									<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source srcset="<?php
+										// only load in larger images if they're going to display large!
+										if ($project['image-size'] > 4) {
+											echo $large_image_url;
+										} else {
+											echo $small_image_url;
+										}
+									?>" media="(min-width: 800px)">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="<?php echo $small_image_url ?>" alt="<?php echo $project['title']; ?>">
+								</picture>
+							</div>
+							<div class="text">
+								<h3>
+									<?php echo $project['summary']; ?>
+								</h3>
+								<p><?php
+									echo $project['client'];
+									if ($project['award']!="") echo ' <span class="award">' . $project['award'] . '</span>';
+								?></p>
+							</div>
+						</a>
+					</li>
+
+					<?php
+				}
+
+				// finish this set
+
+				echo '</div>'; // close row
+				echo '</ul><div class="show-me-more"><p><a href="/projects">Show me more <span class="go">&raquo;</span></a></p></div>';
+				
+				$current_set++;
+			}
+		?>
+		
+	{/exp:channel:entries}
+</div>
+
+<div class="section clients">
+	<h2><span>We’ve worked with some</span> <span>amazing organisations</span></h2>
+	<ul>
+		{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+			{home-clients limit="12"}
+				<li{if url} class="link"{/if}>
+					{if url}<a href="{url}">{/if}<img src="{logo}" alt="{name}" />{if url}</a>{/if}
+				</li>
+			{/home-clients}
+		{/exp:channel:entries}	
+	</ul>
+</div>
+
+<div class="jp">
+	<div class="journal">
+		<h4>Journal:</h4>
+		{exp:channel:entries channel="journal" orderby="date" sort="desc" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+			<h3><a href="/{channel_short_name}">{title} <span class="go">&raquo;</span></a></h3>
+			<?php
+				// find first p that isn't for an image
+				$body = '{article-body}';
+				preg_match_all("/<p>(.*)<\/p>/", $body, $matches);
+				foreach ($matches[0] as $match) {
+					if (substr($match, 3, 6) != "image_" && substr($match, 3, 6) != "video_") {
+						// if we've found one, output it and move on
+						echo $match;
+						break;
+					}
+				}
+			?>
+			<p class="date">{entry_date format="%d %F %Y"}</p>
+		{/exp:channel:entries}
+	</div>
+	<div class="playbook">
+		<h4>From the playbook:</h4>
+		{exp:channel:entries channel="playbook" orderby="date" sort="desc" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+			<h3><a href="/{channel_short_name}">{title} <span class="go">&raquo;</span></a></h3>
+			<?php
+				// find first p that isn't for an image
+				$body = '{article-body}';
+				preg_match_all("/<p>(.*)<\/p>/", $body, $matches);
+				foreach ($matches[0] as $match) {
+					if (substr($match, 3, 6) != "image_" && substr($match, 3, 6) != "video_") {
+						// if we've found one, output it and move on
+						echo $match;
+						break;
+					}
+				}
+			?>
+			<p class="date">{entry_date format="%d %F %Y"}</p>
+		{/exp:channel:entries}
+	</div>
+</div>
+
+{embed="embeds/.footer"}

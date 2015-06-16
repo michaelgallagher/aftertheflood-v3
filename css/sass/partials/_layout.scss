@@ -1,0 +1,26 @@
+.page {
+	margin: 0 auto;
+	@if $old-ie {
+		width: $fixed-width;
+	}
+}
+.JS {
+	.page {
+		padding-top: $header-height-small;
+		@include breakpoint(medium) {
+			padding-top: $header-height-medium;
+		}
+		@include breakpoint(large) {
+			padding-top: $header-height-large;
+		}
+		@include breakpoint(huge) {
+			padding-top: $header-height-huge;
+		}
+	}
+}
+.section {
+	@include screen-margins;
+	@include clearfix;
+}
+.footer {
+}

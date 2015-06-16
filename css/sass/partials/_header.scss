@@ -1,0 +1,166 @@
+.header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: #fff;
+
+	max-height: 100vh;
+
+/*
+	&.open {
+		box-shadow: 0 0 10px $accent-color;
+		transition: box-shadow .5s;
+	}
+*/
+	// title bar
+
+	.title {
+		@include screen-margins-with-gutters;
+		height: $header-height-small;
+		cursor: pointer;
+		text-rendering: optimizeLegibility;
+		-webkit-font-variant-ligatures: common-ligatures;
+		font-variant-ligatures: common-ligatures;
+		h1, h2 {
+			@include default-font;
+			float: left;
+			margin-top: 15px;
+			a {
+				color: #000;
+			}
+			.project-title {
+				margin-left: 20px;
+				color: $gray-3;
+				display: none;
+			}
+		}
+		svg {
+			float: right;
+			margin-top: 19px;
+			transition-duration: 0.3s;
+			transition-property: transform;
+			line {
+				transition: stroke .3s;
+			}
+		}
+		a {
+			transition: color .3s;
+		}
+		&:hover {
+			svg line {
+				stroke: $accent-color;
+			}
+		}
+	}
+
+	// section links
+
+	.sections {
+		@include screen-margins-with-gutters;
+		margin: 23px 0 40px;
+		li {
+			margin: 15px 0;
+		}
+		a {
+			color: $gray-5;
+			text-decoration: none;
+			&:hover {
+				color: $accent-color;
+			}
+		}
+		li.selected a {
+			color: #000;
+		}
+	}
+
+	@include breakpoint(medium) {
+		.title {
+			float: left;
+			padding-right: 0;
+			height: $header-height-medium;
+			cursor: default;
+			h1, h2 {
+				margin-top: 9px;
+			}
+			svg {
+				display: none;
+			}
+			a:hover {
+				color: $accent-color;
+			}
+		}
+		.nav {
+			max-height: none !important;
+			float: right;
+		}
+		.sections {
+			margin: 9px 0 0 0;
+			padding-left: 0;
+			li {
+				display: inline-block;
+				margin: 0 0 0 15px;
+				&.home {
+					display: none;
+				}
+			}
+			a {
+				color: $gray-5;
+			}
+		}
+	}
+	@include breakpoint(large) {
+		.title {
+			height: $header-height-large;
+			h1, h2 {
+				margin-top: 5px;
+				.project-title {
+					display: inline;
+				}
+			}
+		}
+		.sections {
+			margin-top: 5px;
+		}
+	}
+	@include breakpoint(huge) {
+		.title {
+			height: $header-height-huge;
+			h1, h2 {
+				margin-top: 9px;
+			}
+		}
+		.sections {
+			margin-top: 9px;
+		}
+	}
+
+
+}
+.JS {
+	.header {
+		position: fixed;
+		.nav {
+			max-height: 0;
+			transition: max-height .4s;
+			overflow: hidden;
+		}
+		&.open {
+			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
+			.title svg {
+				transform: rotate(45deg);
+			}
+			.nav {
+				max-height: 264px;
+			}
+		}
+	}
+	.home .header .title h1, .header .project-title {
+		opacity: 0;
+		transition: opacity .6s;
+	}
+	.home.scrolled .header .title h1, .header.open .title h1, .scrolled .header .project-title {
+		opacity: 1;
+	}
+}

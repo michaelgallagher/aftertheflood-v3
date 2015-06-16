@@ -1,0 +1,21 @@
+/* for responsive sites, instead of max-width */
+img {
+	width: 100%;
+}
+#nav {
+	z-index: 1000;
+	margin-bottom: -60px;
+	zoom: 1;
+}
+#nav #heading {
+	z-index: 999;
+}
+#nav #dd-wrap {
+	z-index: 998;
+}
+body#home .jp {
+	width: 430px;
+}
+body#home #clients {
+	height: 192px !important; /* ie6 seems to want to open #clients to this height on hover, so might as well just set it! */
+}

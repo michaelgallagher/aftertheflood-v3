@@ -1,0 +1,191 @@
+{exp:switchee variable="{segment_2}" parse="inward"}
+	{case value=""}
+		
+		{!--
+		******************************************************************************************
+		LANDING PAGE
+		******************************************************************************************
+		--}
+		
+		{embed="embeds/.header" loc="projects" page-type="list" page-title="Projects" meta-title="Projects"}
+
+		<div class="section">
+			<div class="projects-list row-1">
+				<h2>We develop <br />digital products</h2>
+				{embed="embeds/.projects-list" show="row1"}
+			</div>
+			<div class="projects-list row-2">
+				<h2>We create new <br />communication formats</h2>
+				{embed="embeds/.projects-list" show="row2"}
+			</div>
+		</div>
+
+		{embed="embeds/.footer"}
+		
+	{/case}
+	{case default="Yes"}
+		
+		{!--
+		******************************************************************************************
+		PROJECT PAGE
+		******************************************************************************************
+		--}
+		
+		{exp:channel:entries channel="projects" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+			{embed="embeds/.header" loc="projects" page-type="single" page-title="{title}" meta-title="Projects | {title}"}
+			{projects-main-image}
+				<style>
+					.heading {
+						background: url({exp:ce_img:single src="{image-file}" width="600" height="600" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+						filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+							src='{exp:ce_img:single src="{image-file}" width="600" height="600" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}',
+							sizingMethod='scale');
+					}
+					@media screen and (min-width: 500px) {
+						.heading {
+							background: url({exp:ce_img:single src="{image-file}" width="1000" height="1000" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+						}
+					}
+					@media screen and (min-width: 800px) {
+						.heading {
+							background: url({exp:ce_img:single src="{image-file}" width="1500" height="1000" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+						}
+					}
+				</style>
+				<div class="heading-wrap">
+					<div class="heading">
+						<div class="text {text-color}">
+							<h1><span>{title}</span></h1>
+							{if projects-summary!=""}<p>{projects-summary}</p>{/if}
+						</div>
+					</div>
+				</div>
+			{/projects-main-image}
+			
+			<div class="section">
+				<p class="for-client">{if projects-client-link}<a href="{projects-client-link}">{/if}{projects-client}{if projects-client-link}</a>{/if}{if projects-award}<br /><span class="award">{projects-award}</span>{/if}</p>
+				{if projects-standfirst}<p class="standfirst">{projects-standfirst}</p>{/if}
+				<?php
+					$left_small_row_open = false;
+					// this var will keep track of whether we've got a small image row open - outputting another image type or getting to the end of the content will close it.
+				?>
+				{projects-body}
+					{exp:ifelse parse="inward"}
+						{if image-type!="small"}<?php
+							// if we've got a small image row open but new content is not a small image, close down small image row
+							if ($left_small_row_open) {
+								echo '</div>';
+								$left_small_row_open = false;
+							}
+						?>{/if}
+					{/exp:ifelse}
+					
+					<?php $new_section = false; ?>
+					
+					{if background!=""}
+						</div><div class="section{if text-colour=="white"} white{/if}" style="background: {background}">
+						<?php $new_section = true; ?>
+					{/if}
+					
+					{if text!=""}
+						<?php
+							$text = '{text}'; // EE seems to encode singole quotes but not double so this should be safe
+		
+							// if we've just started a new section (with a new colour) and it starts with an h4, that gets a special class
+							if ($new_section) {
+								if (substr($text, 0, 4) == "<h4>") {
+									$text = '<h4 class="section-header">' . substr($text, 4);
+								} 
+							}
+		
+							// add .body container
+							$text = '<div class="body{if projects-standfirst=="" && row_count=="1"} first-no-standfirst{/if}">' . $text . '</div>'; // if you change this line, change one below too!
+							
+							// pull block quotes out of main flow into their own divs
+							$text = str_replace('<blockquote>', '</div><blockquote>', $text);
+							$text = str_replace('</blockquote>', '</blockquote><div class="body">', $text);
+							// remove any empty bodys created by blockquote coming right at start of text
+							$text = str_replace('<div class="body{if projects-standfirst=="" && row_count=="1"} first-no-standfirst{/if}"></div>', '', $text);
+		
+							echo $text;
+						?>
+					{/if}
+			
+					{if image}
+						{exp:ifelse parse="inward"}
+							{if image-type=="small"}
+								<?php
+									if ($left_small_row_open) {
+										echo '<div class="img small even">';
+										$left_small_row_open = false;
+									} else {
+										echo '<div class="small-images"><div class="img small odd">';
+										$left_small_row_open = true;
+									}
+								?>
+									<img src="{exp:ce_img:single src="{image}" width="800" quality="80" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}">
+									{if caption}<div class="caption">{caption}</div>{/if}
+								</div>
+								<?php
+									// small image row gets closed by second small image
+									if (!$left_small_row_open) {
+										echo '</div>';
+									}
+								?>
+							{if:else}
+								<div class="img {image-type}{if row_count==total_rows} last-in-content{/if}">
+									<div class="img-wrap"><div><img src="{exp:ce_img:single src="{image}" width="1500" quality="80" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}"></div></div>
+									{if caption}<div class="caption">{caption}</div>{/if}
+								</div>
+							{/if}
+						{/exp:ifelse}
+					{/if}
+					
+					{if video-url}
+						<div class="video {image-type}">{exp:antenna url="{video-url}" max_width="560" max_height="315" cache_minutes="120" wmode="transparent" youtube_rel="0" vimeo_byline="false" vimeo_title="false" vimeo_portrait="false"}<div class="player-wrap"><div class="player{if "FIX"=="THIS"} youtube{/if}">{embed_code}</div></div>{/exp:antenna}{if caption}<div class="caption">{caption}</div>{/if}</div>
+					{/if}
+					
+				{/projects-body}
+				<?php
+					// small image row gets closed if single small image was last thing on page
+					if ($left_small_row_open) {
+						echo '</div>';
+						$left_small_row_open = false;
+					}
+				?>
+			</div>
+			
+			{project-related-projects}
+				{if project-related-projects:count=="1"}
+					<div class="related-projects section"{if projects-related-projects-colour!=""} style="background:{projects-related-projects-colour}"{/if}>
+						<h2>Related Projects</h2>
+						<ul>
+				{/if}
+							<li class="{project-related-projects:switch='i2 |'}{project-related-projects:switch='i3 ||'}{project-related-projects:switch='i4 |||'}">
+								<a href="{project-related-projects:url_title_path="projects"}" class="title-img-wrap">
+									<div class="title-img">
+										<h3>{project-related-projects:title}</h3>
+										<img src="{exp:ce_img:single src="{project-related-projects:projects-main-image}{image-file}{/project-related-projects:projects-main-image}" width="480" height="270" crop="yes" quality="60" url_only="yes"}" alt="{title}" />
+									</div>
+									<div class="text">
+										<p>
+											<span class="summary">{project-related-projects:projects-summary}</span> 
+											<span class="client">{project-related-projects:projects-client}</span>
+										</p>
+									</div>
+								</a>
+							</li>
+				{if project-related-projects:count==project-related-projects:total_results}
+						</ul>
+					</div>
+				{/if}
+			{/project-related-projects}
+		
+		
+			{if no_results}{redirect="404"}{/if}
+		{/exp:channel:entries}
+		
+		{embed="embeds/.footer"}
+		
+	{/case}  
+{/exp:switchee}	

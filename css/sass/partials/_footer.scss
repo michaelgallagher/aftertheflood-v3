@@ -1,0 +1,116 @@
+.push {
+	clear: both;
+}
+.footer {
+	@include screen-margins-with-gutters;
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: $footer-height-small;
+	@include breakpoint(medium) {
+		height: $footer-height-medium;
+	}
+	@include breakpoint(large) {
+		height: $footer-height-large;
+	}
+	background: $accent-color;
+	li, p, a {
+		color: #000;
+	}
+	a {
+		text-decoration: none;
+		color: #000 !important;
+		&:hover {
+			color: #fff !important;
+		}
+	}
+	.sections {
+		padding: 10px 0;
+		float: left;
+		width: 100%;
+		li {
+			float: left;
+			padding: 5px 0;
+			margin-right: 15px;
+			&.last {
+				margin-right: 0;
+			}
+		}
+		@include breakpoint(medium) {
+			padding: 10px 0 29px;
+		}
+		@include breakpoint(large) {
+			padding: 12px 0 39px;
+		}
+	}
+
+	.contact-details {
+		clear: both;
+		border-top: 3px solid #000;
+		margin-top: 46px;
+		padding-top: 14px;
+		p {
+			margin-bottom: 1em;
+		}
+		span {
+			display: block;
+		}
+		.reg {
+			margin-top: -1em;
+			color: $accent-color-dark;
+			clear: both;
+		}
+		@include breakpoint(medium) {
+			p {
+				float: left;
+				margin: 0 17px 0 0;
+				&.tw {
+					margin: 0;
+				}
+			}
+			span {
+				display: inline;
+			}
+			.reg {
+				margin-top: 0;
+			}
+		}
+		@include breakpoint(large) {
+			padding-top: 18px;
+		}
+	}
+
+	.logo {
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		right: 0;
+		@include screen-margins-with-gutters;
+		@include breakpoint(medium) {
+			bottom: 27px;
+		}
+	}
+}
+.container {
+	background: #fff;
+	margin-bottom: $footer-height-small;
+	@include breakpoint(medium) {
+		margin-bottom: $footer-height-medium;
+	}
+	@include breakpoint(large) {
+		margin-bottom: $footer-height-large;
+	}
+}
+
+.ie11 {
+	// IE11 freaks out over fixed elements when you scroll!
+	.footer {
+		position: relative;
+		z-index: 0;
+	}
+	.container {
+		margin-bottom: 0 !important;
+	}
+}

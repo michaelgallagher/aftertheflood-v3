@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'Tiempos';
+	src: url('/css/fonts/TiemposTextWeb-Regular.eot'); /* IE9 Compat Modes */
+	src: url('/css/fonts/TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/css/fonts/TiemposTextWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Tiempos';
+	src: url('/css/fonts/TiemposTextWeb-RegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('/css/fonts/TiemposTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/css/fonts/TiemposTextWeb-RegularItalic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: normal;
+    font-style: italic;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 10px;
+	font: 15px "Tiempos", georgia;
+	line-height: 21px;	
+}
+
+p, label, li, h2, h3, h4 {
+	font: 15px "Tiempos", georgia;
+	line-height: 21px;	
+}
+p {
+	text-indent: 1em;
+}
+p:first-of-type {
+	text-indent: 0;
+}
+h2 {
+	background: red;
+	color: #fff;
+	margin: 1em 0;
+}
+h3 {
+	border-bottom: 3px solid #000;
+	padding-bottom: 8px;
+	margin-top: 1em;
+	margin-bottom: 5px;
+}
+h4 {
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+
+hr {
+	border: none;
+	background: none;
+	padding: 0;
+	margin: 20px 0;
+	border-top: 1px dashed #ccc;
+}
+
+.cke_editable ul {
+	padding: 10px 0;
+}
+.cke_editable li {
+	list-style: none;
+	padding-left: 1em;
+}
+.cke_editable li:before {
+	display: inline-block;
+	content: "–";
+	width: 1em;
+	margin-left: -1em;
+}
+
+
+blockquote {
+	padding: 20px 10px;
+	background: rgb(240, 239, 238);
+	margin: 20px -10px;
+}
+blockquote p {
+	font: 21px "futura-pt", arial, sans-serif;
+	line-height: 25px;
+	text-indent: 0;
+}
+
+
+p.note {
+	font-size: 14px;
+	color: #a09f9e;
+	margin: 22px 0;
+	text-indent: 0;
+}
+
+a { color: rgb(120, 119, 118); text-decoration: underline; }
+
+a:focus, a:active { outline: none; }
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }

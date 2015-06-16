@@ -1,0 +1,43 @@
+<IfModule mod_rewrite.c>
+	# Secure .htaccess file
+	<Files .htaccess>
+		order allow,deny
+		deny from all
+	</Files>
+
+	RewriteEngine On
+	RewriteBase /
+
+	# remove www - this causes redirect loop...
+#	RewriteCond %{HTTP_HOST} ^www.aftertheflood.co$ [NC]
+#	RewriteRule ^(.*)$ http://aftertheflood.co/$1 [R=301,L]
+
+	# remove trailing slash - this stops /admin from working so removing for now
+#	RewriteCond %{HTTP_HOST} !^\.aftertheflood\.co$ [NC]
+#	RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+	# Removes index.php from ExpressionEngine URLs
+	RewriteCond $1 !\.(gif|jpe?g|png)$ [NC]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+
+	# redirects from old site
+	Redirect 301 /what-we-do http://aftertheflood.co/about
+	Redirect 301 /approach http://aftertheflood.co/playbook
+	Redirect 301 /bbc-stream-analytics-app-for-bbc-fm http://aftertheflood.co/projects/stream
+	Redirect 301 /world-chess-championships http://aftertheflood.co/projects/world-chess-app
+	Redirect 301 /bbc-explainers-production-guide http://aftertheflood.co/projects/explainers-videos
+	Redirect 301 /ipad-app-for-the-prime-mininster http://aftertheflood.co/projects/number-10
+	Redirect 301 /uefa-com-pitch-view-application http://aftertheflood.co/projects/world-class
+	Redirect 301 /encode-explorer-for-nature-publishing-group http://aftertheflood.co/projects/encode-explorer
+	Redirect 301 /titanic-bbc-videographic http://aftertheflood.co/projects/explainers-videos
+	Redirect 301 /stars-videographics-now-live http://aftertheflood.co/projects/explainers-videos
+	Redirect 301 /bbc http://aftertheflood.co/projects/explainers-videos
+
+	# for IE polyfills
+	AddType text/x-component .htc
+
+</IfModule>
