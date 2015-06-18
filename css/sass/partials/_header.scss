@@ -44,9 +44,11 @@
 				transition: stroke .3s;
 			}
 		}
+		/* don't think I need this
 		a {
 			transition: color .3s;
 		}
+		*/
 		&:hover {
 			svg line {
 				stroke: $accent-color;
@@ -63,7 +65,7 @@
 			margin: 15px 0;
 		}
 		a {
-			color: $gray-5;
+			color: $gray-3;
 			text-decoration: none;
 			&:hover {
 				color: $accent-color;
@@ -105,7 +107,7 @@
 				}
 			}
 			a {
-				color: $gray-5;
+				color: $gray-3;
 			}
 		}
 	}
@@ -162,5 +164,74 @@
 	}
 	.home.scrolled .header .title h1, .header.open .title h1, .scrolled .header .project-title {
 		opacity: 1;
+	}
+}
+
+
+
+/* =============================================================================
+   Header variations
+============================================================================= */
+
+
+// home
+.home .header {background-color: #000;}
+.home .title {color: #fff;}
+.home .sections {
+	a {color: $gray-5;}
+}
+
+
+// projects index
+.projects.list .header {background-color: #000;}
+.projects.list .title {
+	a {color: #fff;}
+	a:hover {color: $accent-color;}
+}
+.projects.list .sections {
+	a {
+		color: $gray-5;
+		text-decoration: none;
+		&:hover {color: $accent-color}
+	}
+}
+.projects.list .header li.selected a {color: #fff;}
+
+
+// journal & playbook
+.playbook .header,
+.journal .header {background-color: $gray-6;}
+.playbook .header .title,
+.journal .header .title {
+	color: #fff;
+	a {color: #fff;}
+	a:hover {color: $accent-color;}
+}
+.playbook .header .sections,
+.journal .header .sections {
+	a {
+		color: $gray-5;
+		text-decoration: none;
+		&:hover {color: $accent-color}
+	}
+}
+.playbook .header li.selected a,
+.journal .header li.selected a {color: #fff;}
+
+
+// about.about .header,
+.about .header {background-color: $gray-1;}
+
+
+// contact
+.contact .header {background-color: $accent-color;}
+.contact .title {
+	a:hover {color: #fff;}
+}
+.contact .sections {
+	a {
+		color: $accent-color-dark;
+		text-decoration: none;
+		&:hover {color: #fff;}
 	}
 }

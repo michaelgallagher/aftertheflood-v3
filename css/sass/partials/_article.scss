@@ -1,21 +1,22 @@
-html.journal, html.playbook {
-	background: #000;	
-}
+html.journal, html.playbook {background-color: $gray-6;}
+
+
 body.article {
 	.container {
-		background: #000;
+		background: $gray-6;
 		p, h1, h2, h3, h4, li {
 			color: #fff;
 		}
 	}
 	.body {
 		@include gutters;
+		margin-top: 40px;
 	}
-	.intro {
-		font-style: italic;
+	p.intro {
+		color: $accent-color;
 	}
 	p.article-date, .caption p, a, .caption p a {
-		color: $gray-3;
+		color: $gray-5;
 	}
 	.article-date, .intro {
 		padding-top: 16px;
@@ -56,33 +57,39 @@ body.article {
 		}
 		a {
 			color: #fff;
-			border-color: $gray-4;
+			border-color: $accent-color;
 			&:hover {
-				color: $gray-3;
+				color: $accent-color;
 			}
 		}
 		padding-bottom: 45px;
 	}
 	.sub-nav {
 		@include screen-margins-with-gutters;
-		background: $gray-6;
+		/* background: #000; */
 		padding-bottom: 5px;
 		h4 {
-			color: $gray-4;
+			@include h2-small;
+			color: #fff;
 			padding: 16px 0 7px 0;
+			border-top: 3px solid #fff;
 		}
 		li {
-			margin-bottom: 28px;
+			margin-bottom: 10px;
 			a {
-				border-bottom: 3px solid $gray-4;
+				/* border-bottom: 3px solid $gray-6;*/
 				padding-bottom: 10px;
-				color: $gray-4;
+				color: $gray-5;
 				text-decoration: none;
 				display: block;
 			}
-			&.selected a, a:hover {
+			&.selected a {
 				color: #fff;
 				border-color: #fff;
+			}
+			a:hover {
+				color: $accent-color;
+				border-color: $accent-color;
 			}
 		}
 	}
@@ -91,14 +98,15 @@ body.article {
 		.container {
 			@include screen-margins;
 			@include clearfix;
-			background: #000 url(/images/site/article-bg.gif) center top repeat-y;
+			/* background: #00f url(/images/site/article-bg.gif) center top repeat-y; */
+			/* what on earth is this for? */
 		}
 		.body {
 			width: percentage(7/10);
+			margin-top: 100px;
 			padding: 0 $medium-screen-margin 0 $gutter-half-width-medium;
 			@include left-gutter;
 			float: left;
-			background: #000;
 			.pad {
 				padding-top: 50px;
 			}
@@ -109,14 +117,19 @@ body.article {
 		.sub-nav {
 			width: percentage(3/10);
 			float: right;
-			border-left: $gutter-half-width-medium solid #000;
+			margin-top: 100px;
+			border-left: $gutter-half-width-medium solid $gray-6;
 			padding-left: 20px;
 			padding-right: 20px;
 			@include box;
+			h4 {
+				border-top: none;
+			}
 			ul {
-				padding-bottom: 15px;
+				padding-bottom: 300px;
 			}
 			li, h4 {
+				margin-bottom: 0;
 				margin-right: -($medium-screen-margin);
 			}
 		}
@@ -132,6 +145,7 @@ body.article {
 	@include breakpoint(large) {
 		.body {
 			width: percentage(6/9);
+			margin-top: 130px;
 			padding-right: $large-screen-margin !important;
 			.pad {
 				padding-top: 69px;
@@ -142,6 +156,7 @@ body.article {
 		}
 		.sub-nav {
 			width: percentage(3/9);
+			margin-top: 133px;
 			padding-left: 30px;
 			padding-right: 30px;
 			border-width: $gutter-half-width-large;

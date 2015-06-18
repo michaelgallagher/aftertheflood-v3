@@ -1,17 +1,29 @@
 {embed="embeds/.header" loc="home"}
 
 <div class="section intro">
-	<p>After the flood<br /><em>a data design studio</em></p>
+	<p>After the flood</p>
+	<p class="slogan">Using design to enhance <br />
+		the value of data
+	</p>
 </div>
+
+<!--
+the code below still creates sections based on the CMS "featured in" field
+however right now this is fine, since there is just nothing in those fields
+(so there is just one, unnammed, section).
+i've left the code intact because it might be useful in the future
+but, if it is decided that we will never need sections
+it would probably be best to refactor to not cycle through based on sections.
+-->
 
 <div class="featured-projects">
 	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
 		<?php
-			
+
 			/*--------------------------------------------------------
 			LOAD IN OUR DATA
 			--------------------------------------------------------*/
-			
+
 			$entries = array();
 			$current_set = -1;
 			$section_titles = array();
@@ -45,11 +57,11 @@
 				?>
 			{/projects-list:project}
 		{/home-featured-projects}
-			
+
 		<?php
-			
+
 			// for each project, figure out which side it's going to be on, and whether it needs the .smaller class (to absolutely position it in row)
-			
+
 			foreach ($entries as &$set) { // & here is intentional!!! see http://stackoverflow.com/questions/6754710/php-replace-array-value-doesnt-stay-after-foreach-loop
 				$new_row = true;
 				for ($i = 0; $i < count($set); $i++) {
@@ -71,10 +83,10 @@
 								if (($set[$i + 1]['image-size'] > $set[$i]['image-size'] && $set[$i + 1]['image-size'] < 6) || ($set[$i + 1]['image-size'] == $set[$i]['image-size'] && $set[$i + 1]['bleed']=='bleed' && $set[$i]['bleed']=='')) {
 									$set[$i]['smaller'] = " smaller";
 								}
-	
+
 								$new_row = false;
 							}
-						
+
 						// if row is already open
 						} else {
 							// put this image on right
@@ -86,20 +98,20 @@
 
 							// start new row
 							$new_row = true;
-							
+
 						}
-					
+
 					// if it is full width...
 					} else {
 						$set[$i]['side'] = "full ";
-						
+
 						// create class for which side text will be on
 						$set[$i]['text-side'] = " text-" . $set[$i]['text-side'];
-						
+
 						// start new row
 						$new_row = true;
 					}
-					
+
 					// while we're at it, mark first three in each set so mobiles can just show those
 					if ($i < 3) $set[$i]['first-3'] = " first-3";
 
@@ -109,24 +121,27 @@
 			/*--------------------------------------------------------
 			OUTPUT SOME CODE!
 			--------------------------------------------------------*/
-							
+
 			//include the CE Image class
 			if (!class_exists( 'CE_image')) {
 				require PATH_THIRD . 'ce_img/libraries/Ce_image.php';
 			}
 
 			$current_set = 0;
-			
+
 			foreach ($entries as &$set) {
-					
+
 				// output title and start this group
-				echo '<h2>' . $section_titles[$current_set] . '</h2><ul>';
+				// *** i've commented out the section titles here
+				// *** as a fast and dirty way to get them off the homepage
+				// *** the code to show them is: (just remove the comment)
+				// echo '<h2>' . $section_titles[$current_set] . '</h2><ul>';
 
 				$output_some = false;
 
 				// add each project
 				foreach ($set as $project) {
-										
+
 					// open a new row if we're adding a left or full-width one
 					if ($project['side'] != "right") {
 						if ($output_some) { // if we're not on first row, close the one we've just done
@@ -167,10 +182,10 @@
 					$ce_image->make($project['image']); // create the image
 					$small_image_url = $ce_image->get_relative_path(); // get the image url
 					$ce_image->close(); // close the image
-										
+
 					// create list item
 					?>
-					
+
 					<li class="c<?php echo $project['image-size'] . ' ' . $project['bleed'] . ' ' . $project['side'] . $project['smaller'] . $project['text-side'] . $project['first-3']; ?>">
 						<a href="/projects/<?php echo $project['url_title'] ?>" class="title-img-wrap">
 							<div class="title-img">
@@ -207,12 +222,15 @@
 				// finish this set
 
 				echo '</div>'; // close row
-				echo '</ul><div class="show-me-more"><p><a href="/projects">Show me more <span class="go">&raquo;</span></a></p></div>';
-				
+				// the old version:
+				// echo '</ul><div class="show-me-more"><p><a href="/projects">Show me more <span class="go">&raquo;</span></a></p></div>';
+
+				echo '</ul><a class="show-me-more" href="/projects"><p>See <br />more</p></a>';
+
 				$current_set++;
 			}
 		?>
-		
+
 	{/exp:channel:entries}
 </div>
 
@@ -225,7 +243,7 @@
 					{if url}<a href="{url}">{/if}<img src="{logo}" alt="{name}" />{if url}</a>{/if}
 				</li>
 			{/home-clients}
-		{/exp:channel:entries}	
+		{/exp:channel:entries}
 	</ul>
 </div>
 

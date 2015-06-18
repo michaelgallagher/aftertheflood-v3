@@ -23,7 +23,7 @@ body {
 
 @mixin default-font {
 	font: 1.5em "Tiempos", georgia;
-	line-height: (2.1em/1.5);
+	line-height: (2.3em/1.5);
 	@include breakpoint(medium) {
 		line-height: (2.3em/1.5)
 	}
@@ -54,11 +54,11 @@ body {
 	margin-bottom: 5px;
 	@include breakpoint(medium) {
 		font-size: 2.8em;
-		line-height: (3.4em/2.8);
+		line-height: (3.5em/2.8);
 	}
 	@include breakpoint(large) {
 		font-size: 3em;
-		line-height: (3.6em/3);
+		line-height: (3.8em/3);
 	}
 }
 @mixin h2-small {
@@ -158,28 +158,45 @@ body {
 	@include breakpoint(large) {
 		font-size: 6.5em;
 		line-height: (7.8em/6.5);
-		margin: 54px 0 62px;
+		margin: 46px 0 62px;
 	}
 }
+@mixin sub-navigation {
+	font: 1em "Tiempos", georgia;
+	line-height: (1.6em/1);
+	@include breakpoint(medium) {
+		line-height: (1.7em/1)
+	}
+	@include breakpoint(large) {
+		font-size: 0.9em;
+		line-height: (1.4em/0.9);
+	}
+	@include breakpoint(huge) {
+		font-size: 0.7em;
+		line-height: (1.3em/0.7);
+	}
+}
+
+
 
 h1 {
 	@include h1;
 }
 h2 {
-	@include h2;	
+	@include h2;
 }
 h3 {
 	@include h3;
 }
 h4 {
-	@include h4;	
+	@include h4;
 }
 p, label, li, input, textarea {
 	@include default-font;
 }
 input, textarea {
     -webkit-appearance: none;
-    border-radius: 0;	
+    border-radius: 0;
 }
 li p {
 	font-size: 1em;
@@ -242,10 +259,10 @@ hr {
 	}
 }
 .body a, .standfirst a {
-	border-bottom: 3px solid $gray-2;
+	border-bottom: 3px solid $accent-color;
 	&:hover {
-		color: $gray-4;
-	}	
+		color: $accent-color;
+	}
 }
 p.note {
 	color: $link-color;

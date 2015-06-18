@@ -13,19 +13,19 @@
 	--}
 	<div class="body">
 		{if segment_1=="playbook"}
-			<p class="intro">The Playbook is how we record and improve our methods&mdash;it is a catalogue of updated frameworks and processes that we use to solve design problems.</p>
+			<p class="intro">The Playbook is how we record and improve our methods &ndash; it is a catalogue of updated frameworks and processes that we use to solve design problems.</p>
 		{/if}
 
 		{if "{embed:type}"=="article"}
-			<p class="article-date">{embed="embeds/.most-recent-article"}{entry_date format="%j %F %Y"}{if article-originally-published}<br /><em>{article-originally-published}</em>{/if}</p> 
+			<p class="article-date">{embed="embeds/.most-recent-article"}{entry_date format="%j %F %Y"}{if article-originally-published}<br /><em>{article-originally-published}</em>{/if}</p>
 			<h1>{title}</h1>
 		{/if}
 
 		<?php $images = array(); $images[] = ""; $videos = array(); $videos[] = "" ?>
 		{article-images}
-		<?php			
+		<?php
 			$images[] = '<div class="img"><div class="img-wrap"><img src="{exp:ce_img:single src="{image}" width="800" quality="80" url_only="yes" save_type="jpg" bg_color="#f2f1f0"}" alt="" /></div>{if caption}<div class="caption">{caption}</div>{/if}</div>';
-	
+
 		?>
 		{/article-images}
 		{article-videos}
@@ -61,8 +61,7 @@
 			{exp:channel:entries channel="{segment_1}" limit="100" disable="categories|category_fields|member_data|trackbacks|pagination" dynamic="no"}
 				<li{if segment_2 == url_title} class="selected"{/if}{if segment_2=="" && count==1} class="selected"{/if}>
 					<a href="/{segment_1}/{url_title}">
-						<span class="title">{title}</span>&nbsp;<span class="go">&raquo;</span><br />
-						{entry_date format="%j %F %Y"}
+						<span class="title">{title}</span>
 					</a>
 				</li>
 			{/exp:channel:entries}

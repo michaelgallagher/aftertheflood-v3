@@ -1,3 +1,5 @@
+html.about, .about .container {background-color: $gray-1;}
+
 body.about {
 	.standfirst {
 		padding-top: 20px;
@@ -20,9 +22,9 @@ body.about {
 	.body {
 		padding-bottom: 26px;
 	}
-	.people {
+	/* .people {
 		background: $gray-1;
-	}
+	} */
 	@include breakpoint(medium) {
 		.standfirst {
 			padding-top: 90px;
@@ -59,7 +61,7 @@ body.about {
 		.body {
 			padding-top: 66px;
 			padding-bottom: 69px;
-			width: percentage(6/9);				
+			width: percentage(6/9);
 		}
 	}
 }

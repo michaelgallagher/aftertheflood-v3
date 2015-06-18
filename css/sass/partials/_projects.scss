@@ -4,20 +4,7 @@ LANDING PAGE
 
 /*the page and header colour */
 body.projects.list {background-color: #000;}
-.projects.list .container,
-.projects.list .header {
-	background-color: #000;
-}
-.projects.list .title {
-	color: #fff;
-	a {color: #fff;}
-	a:hover {color: $accent-color;}
-}
-/*
-	there has to a better way to do this ... right?
-	maybe the header bits should all be in the header file ...?
-*/
-
+.projects.list .container {background-color: #000;}
 
 
 body.projects.list {
@@ -51,19 +38,20 @@ body.projects.list {
 				p {
 					font-size: 1.5em;
 				}
-				a {
-					color: #fff;
-					text-decoration: none;
-				}
-				a:hover {
-					color: accent-color;
-				}
 			}
 		}
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+		a:hover {
+			color: $accent-color;
+		}
+
 		&.row-2 h2 {
 			margin-left: -$small-screen-margin; margin-right: -$small-screen-margin;
 			padding-left: $small-screen-margin-with-gutter; padding-right: $small-screen-margin-with-gutter;
-			border-top: 10px solid $accent-color;
+			border-top: 3px solid $accent-color;
 		}
 		@include breakpoint(medium) {
 			width: 50%;
@@ -329,7 +317,7 @@ body.projects.single {
 				float: left;
 			}
 			@include breakpoint(large) {
-				width: percentage(6/9);
+				width: percentage(6/10);
 			}
 		}
 	}
