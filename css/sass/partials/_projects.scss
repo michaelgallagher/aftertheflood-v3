@@ -464,17 +464,22 @@ body.projects.single {
 		@include screen-margins;
 		padding-top: 20px;
 		padding-bottom: 0 !important;
-		border: 10px solid #000;
+		border: 10px solid $gray-6;
+		background-color: $gray-6;
 		@include clearfix;
+		h2 {
+			color: #fff;
+		}
 		li {
 			font-size: 1em; // reset font size
 			padding-bottom: 42px;
 			* {
-				color: $text-color;
+				color: #fff;
 			}
 			a:hover * {
 				color: $accent-color;
 				border-color: $accent-color;
+				background-color: $gray-6;
 			}
 			a {
 				text-decoration: none;
@@ -483,6 +488,7 @@ body.projects.single {
 			h3 {
 				@include h2;
 				@include h2-bottom-rule;
+				// border-bottom: 3px solid #fff;
 			}
 			img {
 				display: none;
@@ -493,7 +499,7 @@ body.projects.single {
 			}
 			.client {
 				@include default-font;
-				color: $link-color;
+				color: #fff;
 			}
 		}
 		@include below-breakpoint(medium) {
