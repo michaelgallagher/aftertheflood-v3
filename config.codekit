@@ -13990,6 +13990,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_1000_950_60_ffffff_c1_c_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99007,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_1000_950_60_ffffff_c1_c_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_1000_950_60_ffffff_c1_c_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_1500_950_60_ffffff_c1_c_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118756,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_1500_950_60_ffffff_c1_c_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_1500_950_60_ffffff_c1_c_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_600_600_60_ffffff_c1_c_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45159,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_600_600_60_ffffff_c1_c_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_600_600_60_ffffff_c1_c_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_650_365_c1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363517,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_650_365_c1.png",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Screen_Shot_ZR_hero_shot_650_365_c1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/ShotsPDF_1300_740_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130426,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/ShotsPDF_1300_740_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/ShotsPDF_1300_740_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/square-unit-07_439_215_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14881,6 +14936,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/TexasChainsawMassacre_1500_199_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50523,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/TexasChainsawMassacre_1500_199_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/TexasChainsawMassacre_1500_199_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/Thames_bits-for-bloga_800_460_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15614,6 +15680,17 @@
 		"initialSize": 100364,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/world_chess_app_schema_1162_823_80_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/world_chess_app_schema_1162_823_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/ZR_Visual_script3_1200_848_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180166,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/ZR_Visual_script3_1200_848_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/ZR_Visual_script3_1200_848_80_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

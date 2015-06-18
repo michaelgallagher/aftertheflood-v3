@@ -12,6 +12,10 @@ body.article {
 		@include gutters;
 		margin-top: 40px;
 	}
+	h3 {
+		@include h3-bottom-rule;
+		border-bottom: 3px solid #fff;
+	}
 	p.intro {
 		color: $accent-color;
 	}
@@ -23,6 +27,11 @@ body.article {
 		@include breakpoint(large) {
 			padding-top: 23px;
 		}
+	}
+	p.highlight {
+		color: $accent-color;
+		margin-top: 14px;
+		text-indent: 0 !important;
 	}
 	.most-recent {
 		font-style: italic;
