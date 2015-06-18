@@ -426,7 +426,7 @@ body.home .intro {
 				width: auto;
 				max-width: 100%;
 			}
-			opacity: .6;
+			opacity: .4;
 			@if $old-ie {
 				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 				filter: alpha(opacity=50);
