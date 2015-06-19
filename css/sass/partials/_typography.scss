@@ -52,6 +52,7 @@ body {
 	font: 2.1em "futura-pt", arial, sans-serif;
 	line-height: (2.5em/2.1);
 	margin-bottom: 5px;
+	letter-spacing: 0.02em;
 	@include breakpoint(medium) {
 		font-size: 2.8em;
 		line-height: (3.5em/2.8);
@@ -64,6 +65,7 @@ body {
 @mixin h2-small {
 	font: 1.8em "futura-pt", arial, sans-serif;
 	line-height: (2.3em/1.8);
+	letter-spacing: 0.03em;
 	@include breakpoint(large) {
 		font-size: 2.1em;
 		line-height: (2.6em/2.1);

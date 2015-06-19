@@ -988,6 +988,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2474,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/content-planning-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4011,6 +4022,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/citizen-ex-map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262561,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/content-planning-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6464,6 +6486,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Exceptions\/LondonSquared_BlurbForEditor.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Exceptions\/LondonSquared_BlurbForEditor.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/header-test\/header-test.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -8420,6 +8451,50 @@
 		"initialSize": 92814,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/chess_tablet_3_1024_768_80_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/chess_tablet_3_1024_768_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map_1000_867_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92372,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_1000_867_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_1000_867_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map_1394_867_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129620,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_1394_867_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_1394_867_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map_600_600_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34982,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map_650_365_65_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28918,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_650_365_65_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_650_365_65_c1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

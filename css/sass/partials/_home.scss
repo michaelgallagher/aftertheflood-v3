@@ -96,6 +96,7 @@ body.home .intro {
 			color: #fff;
 			padding-top: 16px;
 			h3 {
+				margin-bottom: 1px;
 				@include h2-small;
 			}
 			p {
@@ -105,6 +106,7 @@ body.home .intro {
 				display: block;
 				color: $gray-5;
 				font-style: italic;
+				margin-top: 2px;
 				padding-left: 26px;
 				background: url(/images/site/gray-arrow.svg) 0 6px no-repeat;
 				.no-svg & {

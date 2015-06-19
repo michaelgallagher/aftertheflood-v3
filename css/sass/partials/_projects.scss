@@ -247,6 +247,23 @@ body.projects.single {
 		}
 
 	}
+	.as-seen-on-tv {
+		@include h2;
+		margin: -60px 0 0 0;
+		p {
+			margin-bottom: 50px;
+		}
+		@include breakpoint(medium) {
+			margin: -75px 0 0 0;
+		}
+		@include breakpoint(large) {
+			@include h2-small;
+			margin: -100px 0 0 0;
+		}
+	}
+	.going-fast {
+		color: $accent-color;
+	}
 	.body {
 		float: left;
 		width: 100%;
