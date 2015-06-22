@@ -18,7 +18,9 @@
 
 body {
 	font-size: 0.625em; /* 10px/16px */
+	text-rendering: optimizeLegibility;
 	-webkit-text-size-adjust: none; /* prevent iOS from resizing small text */
+	-webkit-font-smoothing: antialiased;
 }
 
 @mixin default-font {

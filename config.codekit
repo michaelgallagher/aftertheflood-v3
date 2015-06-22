@@ -570,6 +570,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/badges-on-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3583,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-gray.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/badges-on-light-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3796,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-light-gray.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-light-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/badges.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4016,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/Barca_attack_all.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -988,6 +1021,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-extension.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3216,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-extension.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-extension.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2168,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-logo.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/citizen-ex-map.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -995,6 +1050,61 @@
 		"initialSize": 2474,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-personal-page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2215,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-personal-page.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-personal-page.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-site-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3361,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-home.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-site-libya.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1926,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-libya.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-libya.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/citizen-ex-site-scotland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2744,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-scotland.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-scotland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/composite-map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2792,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/composite-map.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/composite-map.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3604,6 +3714,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/badges-on-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84472,
+		"inputAbbreviatedPath": "\/downloads\/images\/badges-on-gray.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/badges-on-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/badges-on-light-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187529,
+		"inputAbbreviatedPath": "\/downloads\/images\/badges-on-light-gray.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/badges-on-light-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/badges.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212690,
+		"inputAbbreviatedPath": "\/downloads\/images\/badges.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/badges.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/Barca_attack_all.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4022,6 +4165,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/citizen-ex-extension.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 605133,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-extension.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-extension.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/citizen-ex-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33852,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-logo.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/citizen-ex-map.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4029,6 +4194,61 @@
 		"initialSize": 262561,
 		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/citizen-ex-personal-page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166143,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-personal-page.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-personal-page.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/citizen-ex-site-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 596866,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-home.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/citizen-ex-site-libya.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72182,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-libya.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-libya.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/citizen-ex-site-scotland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 539061,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-scotland.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-scotland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/composite-map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 624257,
+		"inputAbbreviatedPath": "\/downloads\/images\/composite-map.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/composite-map.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7696,6 +7916,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/badges-on-gray_1280_300_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55707,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/badges-on-gray_1280_300_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/badges-on-gray_1280_300_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/badges_1500_352_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65875,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/badges_1500_352_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/badges_1500_352_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/Barca_attack_alves_1000_549_80.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8455,6 +8697,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/citizen-ex-extension_1500_1083_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242645,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-extension_1500_1083_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-extension_1500_1083_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-logo_1200_232_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34849,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-logo_1200_232_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-logo_1200_232_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-logo_1500_290_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33852,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-logo_1500_290_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-logo_1500_290_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/citizen-ex-map_1000_867_60_ffffff_c1_l_ t.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8495,6 +8770,127 @@
 		"initialSize": 28918,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_650_365_65_c1.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map_650_365_65_c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-personal-page_1500_1083_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92140,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-personal-page_1500_1083_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-personal-page_1500_1083_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258494,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-libya_1500_1083_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55299,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_1500_1083_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_1500_1083_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_1503_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149212,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_1503_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_1503_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_578_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23319,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_578_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_578_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129055,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/composite-map_1000_1000_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88392,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_1000_1000_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_1000_1000_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/composite-map_1500_1000_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137357,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_1500_1000_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_1500_1000_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/composite-map_1500_812_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178862,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_1500_812_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_1500_812_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/composite-map_600_600_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37462,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/composite-map_650_365_65_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31833,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_650_365_65_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/composite-map_650_365_65_c1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
