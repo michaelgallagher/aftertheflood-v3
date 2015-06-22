@@ -235,12 +235,15 @@ body.projects.single {
 		@include gutters;
 		max-width: $max-paragraph-width;
 		a {
-			border-bottom: 3px solid $accent-color;
+			border-bottom: 1px solid $accent-color;
 		}
 		@include breakpoint(medium) {
 			width: percentage(7/10);
 			float: left;
 			padding-top: 55px;
+			a {
+				border-bottom: 3px solid $accent-color;
+			}
 		}
 		@include breakpoint(large) {
 			width: percentage(6/9);
