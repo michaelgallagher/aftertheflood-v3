@@ -234,6 +234,9 @@ body.projects.single {
 		text-indent: 0;
 		@include gutters;
 		max-width: $max-paragraph-width;
+		a {
+			border-bottom: 3px solid $accent-color;
+		}
 		@include breakpoint(medium) {
 			width: percentage(7/10);
 			float: left;
