@@ -208,6 +208,9 @@ body.projects.single {
 		padding-top: 16px;
 		padding-bottom: 13px;
 		@include gutters;
+		a:hover {
+			color: $accent-color;
+		}
 		@include breakpoint(medium) {
 			float: left;
 			width: percentage(3/10);

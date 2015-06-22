@@ -11,7 +11,7 @@ body.about {
 			padding-top: 20px;
 		}
 		p {
-			@include h2-serif;
+			@include about-h1;
 			max-width: 925px;
 		}
 	}

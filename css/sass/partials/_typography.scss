@@ -54,7 +54,7 @@ body {
 	font: 2.1em "futura-pt", arial, sans-serif;
 	line-height: (2.5em/2.1);
 	margin-bottom: 5px;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.01em;
 	@include breakpoint(medium) {
 		font-size: 2.8em;
 		line-height: (3.5em/2.8);
@@ -147,7 +147,20 @@ body {
 	@include breakpoint(large) {
 		font-size: 6.5em;
 		line-height: (7.8em/6.5);
-		letter-spacing: -1px;
+		letter-spacing: -0.8px;
+	}
+}
+@mixin about-h1 {
+	font: 2.3em "Tiempos", georgia;
+	line-height: (3em/2.3);
+	margin-bottom: 5px;
+	@include breakpoint(medium) {
+		font-size: 3.2em;
+		line-height: (3.9em/3.2);
+	}
+	@include breakpoint(large) {
+		font-size: 3.5em;
+		line-height: (4.2em/3.5);
 	}
 }
 @mixin article-h1 {
