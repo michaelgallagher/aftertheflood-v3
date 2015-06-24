@@ -63,47 +63,7 @@
 			{/projects-main-image}
 
 			<div class="section">
-				<div class="in-brief">
-					<h3 class="in-brief-title">In Brief</h3>
-
-					<div class="in-brief-entries">
-
-							<div class="in-brief-entry">
-								<p class="in-brief-label">Client</p>
-								<p class="in-brief-content">{if projects-client-link}<a href="{projects-client-link}">{/if}{projects-client}{if projects-client-link}</a>{/if}</p>
-							</div>
-
-							{if projects-problem}
-							<div class="in-brief-entry">
-								<p class="in-brief-label">The Problem</p>
-								<p class="in-brief-content">{projects-problem}</p>
-							</div>
-							{/if}
-
-							{if projects-solution}
-							<div class="in-brief-entry">
-								<div class="in-brief-label"><p>Our Solution</p></div>
-								<div class="in-brief-content"><p>{projects-solution}</p></div>
-							</div>
-							{/if}
-
-							{if projects-results}
-							<div class="in-brief-entry">
-								<p class="in-brief-label">Results</p>
-								<p class="in-brief-content">{projects-results}</p>
-							</div>
-							{/if}
-
-							{if projects-award}
-							<div class="in-brief-entry">
-								<p class="in-brief-label award">Awards</p>
-								<p class="in-brief-content award">{projects-award}</p>
-							</div>
-							{/if}
-
-					</div>
-
-				</div>
+				<p class="for-client">{if projects-client-link}<a href="{projects-client-link}">{/if}{projects-client}{if projects-client-link}</a>{/if}{if projects-award}<br /><span class="award">{projects-award}</span>{/if}</p>
 				{if projects-standfirst}<p class="standfirst">{projects-standfirst}</p>{/if}
 				<?php
 					$left_small_row_open = false;
