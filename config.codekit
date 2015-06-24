@@ -595,28 +595,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/downloads\/images\/_thumbs\/badges-on-gray.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3583,
-		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-gray.png",
-		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-gray.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/downloads\/images\/_thumbs\/badges-on-light-gray.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3796,
-		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-light-gray.png",
-		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/badges-on-light-gray.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/downloads\/images\/_thumbs\/badges.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1050,31 +1028,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3216,
+		"initialSize": 3141,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-extension.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-extension.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/downloads\/images\/_thumbs\/citizen-ex-logo.png": {
-		"fileType": 32768,
+	"\/downloads\/images\/_thumbs\/citizen-ex-map-1.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2168,
-		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-logo.png",
-		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-logo.png",
+		"initialSize": 2570,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/downloads\/images\/_thumbs\/citizen-ex-map.jpg": {
+	"\/downloads\/images\/_thumbs\/citizen-ex-map-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2474,
-		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map.jpg",
-		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map.jpg",
+		"initialSize": 2668,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-map-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1083,7 +1061,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2215,
+		"initialSize": 2168,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-personal-page.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-personal-page.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1094,7 +1072,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3361,
+		"initialSize": 3302,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-home.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-home.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1105,7 +1083,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1926,
+		"initialSize": 2107,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-libya.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-libya.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1116,20 +1094,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2744,
+		"initialSize": 2679,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-scotland.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/citizen-ex-site-scotland.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/downloads\/images\/_thumbs\/composite-map.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2792,
-		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/composite-map.jpg",
-		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/composite-map.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1985,7 +1952,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3964,
+		"initialSize": 5187,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/howzstat-worm-1.png",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/howzstat-worm-1.png",
 		"outputPathIsOutsideProject": 0,
@@ -2547,6 +2514,17 @@
 		"initialSize": 2892,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/pitch-view-4.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/pitch-view-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/pitch-view-cropped-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2972,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/pitch-view-cropped-home.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/pitch-view-cropped-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3585,6 +3563,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/zombies-run-hero-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2351,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/zombies-run-hero-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/zombies-run-hero-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/zombies-run-hero-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2089,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/zombies-run-hero-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/zombies-run-hero-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/zr-working-in-progress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3354,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/zr-working-in-progress.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/zr-working-in-progress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/ZR_Visual_script3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3735,28 +3746,6 @@
 		"initialSize": 257287,
 		"inputAbbreviatedPath": "\/downloads\/images\/ATF_4060.00_00_00_00.Still007.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/ATF_4060.00_00_00_00.Still007.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/downloads\/images\/badges-on-gray.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 84472,
-		"inputAbbreviatedPath": "\/downloads\/images\/badges-on-gray.png",
-		"outputAbbreviatedPath": "\/downloads\/images\/badges-on-gray.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/downloads\/images\/badges-on-light-gray.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 187529,
-		"inputAbbreviatedPath": "\/downloads\/images\/badges-on-light-gray.png",
-		"outputAbbreviatedPath": "\/downloads\/images\/badges-on-light-gray.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4201,24 +4190,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/downloads\/images\/citizen-ex-logo.png": {
-		"fileType": 32768,
+	"\/downloads\/images\/citizen-ex-map-1.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 33852,
-		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-logo.png",
-		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-logo.png",
+		"initialSize": 542032,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/downloads\/images\/citizen-ex-map.jpg": {
+	"\/downloads\/images\/citizen-ex-map-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 262561,
-		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map.jpg",
-		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map.jpg",
+		"initialSize": 802273,
+		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-map-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4238,7 +4227,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 596866,
+		"initialSize": 596859,
 		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-home.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-home.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4249,7 +4238,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 72182,
+		"initialSize": 543282,
 		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-libya.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-libya.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4263,17 +4252,6 @@
 		"initialSize": 539061,
 		"inputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-scotland.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/citizen-ex-site-scotland.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/downloads\/images\/composite-map.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 624257,
-		"inputAbbreviatedPath": "\/downloads\/images\/composite-map.jpg",
-		"outputAbbreviatedPath": "\/downloads\/images\/composite-map.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5129,7 +5107,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 104216,
+		"initialSize": 109710,
 		"inputAbbreviatedPath": "\/downloads\/images\/howzstat-worm-1.png",
 		"outputAbbreviatedPath": "\/downloads\/images\/howzstat-worm-1.png",
 		"outputPathIsOutsideProject": 0,
@@ -5682,6 +5660,17 @@
 		"initialSize": 521102,
 		"inputAbbreviatedPath": "\/downloads\/images\/pitch-view-4.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/pitch-view-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/pitch-view-cropped-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 587368,
+		"inputAbbreviatedPath": "\/downloads\/images\/pitch-view-cropped-home.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/pitch-view-cropped-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6720,6 +6709,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/zombies-run-hero-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 802969,
+		"inputAbbreviatedPath": "\/downloads\/images\/zombies-run-hero-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/zombies-run-hero-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/zombies-run-hero-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 590609,
+		"inputAbbreviatedPath": "\/downloads\/images\/zombies-run-hero-2.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/zombies-run-hero-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/zr-working-in-progress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422416,
+		"inputAbbreviatedPath": "\/downloads\/images\/zr-working-in-progress.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/zr-working-in-progress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/ZR_Visual_script3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7316,6 +7338,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/650_365_65_s_c1\/citizen-ex-map-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35150,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/650_365_65_s_c1\/citizen-ex-map-2.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/650_365_65_s_c1\/citizen-ex-map-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/650_365_65_s_c1\/explaina.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7334,6 +7367,17 @@
 		"initialSize": 24877,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/650_365_65_s_c1\/gds-hero-1.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/650_365_65_s_c1\/gds-hero-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/650_365_65_s_c1\/IDEAS_HERO.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18719,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/650_365_65_s_c1\/IDEAS_HERO.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/650_365_65_s_c1\/IDEAS_HERO.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7536,6 +7580,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/850_478_65_s_c1\/citizen-ex-map-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56679,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/850_478_65_s_c1\/citizen-ex-map-2.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/850_478_65_s_c1\/citizen-ex-map-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/850_478_65_s_c1\/explaina.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7554,6 +7609,17 @@
 		"initialSize": 36661,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/850_478_65_s_c1\/gds-hero-1.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/850_478_65_s_c1\/gds-hero-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/850_478_65_s_c1\/IDEAS_HERO.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28310,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/850_478_65_s_c1\/IDEAS_HERO.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/850_478_65_s_c1\/IDEAS_HERO.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8742,6 +8808,50 @@
 		"initialSize": 33852,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-logo_1500_290_80_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-logo_1500_290_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map-2_1000_1000_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101539,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_1000_1000_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_1000_1000_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map-2_1500_1000_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152555,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_1500_1000_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_1500_1000_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map-2_600_600_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43879,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-map-2_650_365_65_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35150,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_650_365_65_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-map-2_650_365_65_c1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16244,6 +16354,17 @@
 		"initialSize": 100364,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/world_chess_app_schema_1162_823_80_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/world_chess_app_schema_1162_823_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/zombies-run-hero-2_650_365_65_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19343,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/zombies-run-hero-2_650_365_65_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/zombies-run-hero-2_650_365_65_c1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
