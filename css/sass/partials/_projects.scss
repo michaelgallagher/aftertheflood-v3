@@ -383,7 +383,7 @@ body.projects.single {
 		}
 		@include screen-margins;
 		p {
-			@include h2-serif;
+			@include blockquote;
 			@include gutters;
 			@include breakpoint(medium) {
 				width: percentage(7/10);
