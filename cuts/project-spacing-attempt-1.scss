@@ -200,13 +200,13 @@ body.projects.single {
 		}
 	}
 	.container .section {
-		padding-bottom: 45px;
-		@include breakpoint(medium) {padding-bottom: $jumbo-v-margin-medium }
-		@include breakpoint(large) {padding-bottom: $jumbo-v-margin-large }
+		padding-bottom: 88px; // new
+		@include breakpoint(medium) {padding-bottom: 100px} // new
+		@include breakpoint(large) {padding-bottom: 130px} // new
 	}
 	.in-brief {
 		padding-top: 25px;
-		padding-bottom: 88px;
+		padding-bottom: 45px;
 		@include gutters;
 		a:hover {
 			color: $accent-color;
@@ -289,6 +289,7 @@ body.projects.single {
 			width: percentage(7/10);
 			float: left;
 			padding-top: 55px;
+			padding-bottom: 54px; // new
 			a {
 				border-bottom: 3px solid $accent-color;
 			}
@@ -296,6 +297,7 @@ body.projects.single {
 		@include breakpoint(large) {
 			width: percentage(6/9);
 			padding-top: 65px;
+			padding-bottom: 61px; // new
 		}
 		@include breakpoint(huge) {
 			max-width: $max-paragraph-width-huge;
@@ -310,16 +312,16 @@ body.projects.single {
 		clear: both;
 		// set main column width
 		@include gutters;
-		margin-top: $jumbo-v-margin-small;
+		margin-top: $v-margin-small; // new
 		@include breakpoint(medium) {
 			width: percentage(7/10);
 			float: right;
-			margin-top: $jumbo-v-margin-medium;
+			margin-top: $v-margin-medium; // new
 			clear: none; // Was "both". I don't *think* this causes any explosions. Yet.
 		}
 		@include breakpoint(large) {
 			width: percentage(6/9);
-			margin-top: $jumbo-v-margin-large;
+			margin-top: $v-margin-large; // new
 		}
 
 		&.first-no-standfirst {
@@ -337,14 +339,21 @@ body.projects.single {
 		}
 		h3 {
 			@include h3-normal;
+			padding-top: 43px; // new
+			@include breakpoint(medium) {
+				padding-top: 46px; // new
+			}
+			@include breakpoint(large) {
+				padding-top: 61px; // new
+			}
 		}
 		h4.section-header {
 			margin: -32px 0 50px;
 			@include breakpoint(medium) {
-				margin: -82px 0 88px;
+				margin: -36px 0 55px;
 			}
 			@include breakpoint(large) {
-				margin: -112px 0 138px;
+				margin: -45px 0 70px; // new
 			}
 		}
 	}
@@ -462,10 +471,10 @@ body.projects.single {
 		&.full.last-in-content {
 			margin-bottom: -45px;
 			@include breakpoint(medium) {
-				margin-bottom: -100px; // this should match the section spacing
+				margin-bottom: -54px;
 			}
 			@include breakpoint(large) {
-				margin-bottom: -130px; // same here
+				margin-bottom: -69px;
 			}
 			img {
 				margin-bottom: 0;

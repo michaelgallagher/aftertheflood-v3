@@ -72,6 +72,10 @@ body {
 		font-size: 2.1em;
 		line-height: (2.6em/2.1);
 	}
+	@include breakpoint(huge) {
+		font-size: 2.4em;
+		line-height: (3em/2.4);
+	}
 }
 @mixin h2-serif {
 	font: 2.7em "Tiempos", georgia;
@@ -88,6 +92,24 @@ body {
 }
 @mixin h3 {
 	@include default-font;
+}
+@mixin h3-normal {
+	font: 2.1em "futura-pt", arial, sans-serif;
+	line-height: (2.5em/2.1);
+	margin-bottom: 8px;
+	letter-spacing: 0.01em;
+	@include breakpoint(medium) {
+		font-size: 2.8em;
+		line-height: (3.5em/2.8);
+		margin-bottom: 10px;
+	}
+	@include breakpoint(large) {
+		font-size: 3em;
+		line-height: (3.8em/3);
+	}
+	@include breakpoint(huge) {
+		margin-bottom: 12px;
+	}
 }
 @mixin h4 {
 	@include default-font;

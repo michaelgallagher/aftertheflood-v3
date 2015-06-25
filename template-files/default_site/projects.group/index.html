@@ -82,8 +82,8 @@
 
 							{if projects-solution}
 							<div class="in-brief-entry">
-								<div class="in-brief-label"><p>Our Solution</p></div>
-								<div class="in-brief-content"><p>{projects-solution}</p></div>
+								<p class="in-brief-label">Our Solution</p>
+								<p class="in-brief-content">{projects-solution}</p>
 							</div>
 							{/if}
 
@@ -129,7 +129,7 @@
 
 					{if text!=""}
 						<?php
-							$text = '{text}'; // EE seems to encode singole quotes but not double so this should be safe
+							$text = '{text}'; // EE seems to encode single quotes but not double so this should be safe
 
 							// if we've just started a new section (with a new colour) and it starts with an h4, that gets a special class
 							if ($new_section) {
