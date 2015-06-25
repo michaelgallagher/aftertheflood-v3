@@ -287,7 +287,7 @@ body.home .intro {
 	}
 
 	a.show-me-more {
-		background-color: $gray-5;
+		background-color: $accent-color;
 		text-align: center;
 		border: none;
 		width: 120px;
@@ -313,7 +313,7 @@ body.home .intro {
 			}
 		}
 		&:hover {
-			background-color: $accent-color;
+			background-color: #fff;
 		}
 		@include breakpoint(medium) {
 			margin-bottom: 132px;

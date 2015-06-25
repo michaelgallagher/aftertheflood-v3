@@ -472,7 +472,6 @@ body.projects.single {
 			}
 			.caption {
 				margin: 15px 0 60px;
-
 			}
 		}
 	}
@@ -518,11 +517,48 @@ body.projects.single {
 		}
 	}
 
-	.related-projects {
+
+
+	.get-in-touch {
 		@include screen-margins;
 		padding-top: 20px;
+		//padding-bottom: 0 !important; // check
+		background-color: $gray-6;
+		h2 {
+			@include h2;
+			color: #fff;
+			margin-bottom: 25px;
+		}
+		.button {
+			@include h2;
+			background: $accent-color;
+			border-radius: 1px;
+			border: none;
+			box-shadow: none;
+			padding: 6px 14px 10px 14px;
+			&:hover {
+				background-color: #fff;
+			}
+		}
+		p {
+			color: $gray-4;
+			margin-top: 18px;
+		}
+		@include breakpoint(large) {
+			padding-top: 64px;
+			padding-bottom: 72px !important;
+		}
+	}
+
+
+
+
+
+	.related-projects {
+		@include screen-margins;
+		padding-top: 20px; // this
 		padding-bottom: 0 !important;
-		border: 10px solid $gray-6;
+		//border: 10px solid $gray-6;
 		background-color: $gray-6;
 		@include clearfix;
 		h2 {
