@@ -516,13 +516,9 @@ body.projects.single {
 			max-width: $max-paragraph-width-huge;
 		}
 	}
-
-
-
 	.get-in-touch {
 		@include screen-margins;
 		padding-top: 20px;
-		//padding-bottom: 0 !important; // check
 		background-color: $gray-6;
 		h2 {
 			@include h2;
@@ -544,9 +540,13 @@ body.projects.single {
 			color: $gray-4;
 			margin-top: 18px;
 		}
+		@include breakpoint(medium) {
+			padding-top: 50px;
+			padding-bottom: 54px !important;
+		}
 		@include breakpoint(large) {
 			padding-top: 64px;
-			padding-bottom: 72px !important;
+			padding-bottom: 69px !important;
 		}
 	}
 
@@ -556,9 +556,7 @@ body.projects.single {
 
 	.related-projects {
 		@include screen-margins;
-		padding-top: 20px; // this
 		padding-bottom: 0 !important;
-		//border: 10px solid $gray-6;
 		background-color: $gray-6;
 		@include clearfix;
 		h2 {
@@ -582,7 +580,7 @@ body.projects.single {
 			h3 {
 				@include h2;
 				@include h2-bottom-rule;
-				// border-bottom: 3px solid #fff;
+				//border-bottom: 3px solid #fff !important;
 			}
 			img {
 				display: none;
@@ -599,8 +597,9 @@ body.projects.single {
 		@include below-breakpoint(medium) {
 			h2 {
 				@include h4;
+				color: $accent-color;
 				border: none;
-				padding: 0;
+				padding-top: 40px;
 				margin-bottom: 41px;
 			}
 			li {
@@ -613,7 +612,7 @@ body.projects.single {
 					display: block;
 					opacity: 1;
 					background: none;
-					border: 3px solid $text-color !important;
+					border: 3px solid #fff !important;
 					border-width: 0 0 3px 0 !important;
 					padding: 0 0 9px 0;
 					margin-bottom: 8px !important;
@@ -634,7 +633,7 @@ body.projects.single {
 				margin: 0 -10px;
 			}
 			h2 {
-				margin: 15px ($gutter-half-width-medium - 10px) 58px;
+				margin: 0 ($gutter-half-width-medium - 10px) 25px; // removed top margin here
 			}
 			li {
 				width: 50%;
@@ -653,7 +652,7 @@ body.projects.single {
 		}
 		@include breakpoint(large) {
 			h2 {
-				margin: 24px ($gutter-half-width-large - 10px) 56px;
+				margin: 0 ($gutter-half-width-large - 10px) 25px; // removed top margin here, cut down bottom
 			}
 			li {
 				width: 33.33333%;

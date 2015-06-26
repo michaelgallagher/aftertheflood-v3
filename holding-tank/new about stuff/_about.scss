@@ -1,0 +1,145 @@
+html.about, .about .container {background-color: $gray-1;}
+
+body.about {
+	.standfirst {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.text {
+			@include gutters;
+		}
+		p {
+			@include about-h1;
+			max-width: 925px;
+		}
+	}
+	.rule {
+		@include gutters;
+		border-bottom: 3px solid #000;
+		//padding-top: 20px;
+	}
+	.section h2 {
+		padding-top: 20px;
+		margin-bottom: 22px;
+	}
+	.body {
+		padding-bottom: 26px;
+	}
+	.rule-wrapper {
+		@include gutters;
+	}
+
+
+
+
+
+	.approach {
+		.approach-wrapper {
+			@include clearfix;
+			padding-bottom: 26px;
+			@include breakpoint(medium) {
+				padding-bottom: 47px;
+			}
+			@include breakpoint(large) {
+				padding-bottom: 69px;
+			}
+		}
+		.approach-title { // possibly delete this rule set?
+			//background-color: red;
+			//width: 100%;
+		}
+		/* rearranges the page at the medium size
+		   so that the three clusters sit side-by-side */
+		.approach-cluster {
+			@include gutters;
+			margin-top: 40px;
+			@include breakpoint(medium) {
+				width: percentage(1/3);
+				float: left;
+				margin-top: 0;
+			}
+		}
+		.approach-diagram {
+			transform: rotate(90deg);
+			//padding-bottom: 10px;
+			@include breakpoint(medium) {
+				transform: none;
+			}
+		}
+		.approach-content {
+			h2 {
+				width: 100%;
+				clear: both;
+				padding-left: 0;
+				padding-top: 0;
+				margin-top: 20px;
+				margin-bottom: 0;
+				@include breakpoint(medium) {
+					margin-top: 45px;
+					margin-bottom: 15px;
+				}
+				@include breakpoint(large) {
+					margin-top: 60px;
+					margin-bottom: 20px;
+				}
+			}
+			h3 {
+				@include h2-small;
+				color: $gray-4;
+				padding-top: 15px;
+				@include breakpoint(medium) {
+					padding-top: 15px;
+				}
+				@include breakpoint(large) {
+					padding-top: 20px;
+				}
+			}
+			p {
+				padding-right: 10px;
+			}
+		}
+	}
+
+
+
+
+
+
+	@include breakpoint(medium) {
+		.standfirst {
+			padding-top: 90px;
+			padding-bottom: 40px;
+		}
+		.rule {
+		}
+		.section h2 {
+			float: left;
+			width: percentage(3/10);
+			@include gutters;
+			padding-top: 46px;
+		}
+		.body {
+			float: right;
+			clear: right;
+			width: percentage(2/3);
+			padding-top: 46px;
+			padding-bottom: 47px;
+			@include gutters;
+		}
+	}
+	@include breakpoint(large) {
+		.standfirst {
+			padding-top: 148px;
+			padding-bottom: 63px;
+		}
+		.rule {
+		}
+		.section h2 {
+			width: percentage(3/9);
+			padding-top: 66px;
+		}
+		.body {
+			padding-top: 66px;
+			padding-bottom: 69px;
+		}
+	}
+}
