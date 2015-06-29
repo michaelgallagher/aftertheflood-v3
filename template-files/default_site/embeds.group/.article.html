@@ -17,7 +17,16 @@
 		{/if}
 
 		{if "{embed:type}"=="article"}
-			<p class="article-date">{embed="embeds/.most-recent-article"}{entry_date format="%j %F %Y"}{if article-originally-published}<br /><em>{article-originally-published}</em>{/if}</p>
+			<p class="article-date">
+				{embed="embeds/.most-recent-article"}
+				{entry_date format="%j %F %Y"}
+				{if article-originally-published}<br />
+					<em>{article-originally-published}</em>
+				{/if}
+				{if article-type==="type-client"}
+					<br /><span class="client-news">Client News</span><br />
+				{/if}
+			</p>
 			<h1>{title}</h1>
 		{/if}
 
@@ -61,6 +70,9 @@
 			{exp:channel:entries channel="{segment_1}" limit="100" disable="categories|category_fields|member_data|trackbacks|pagination" dynamic="no"}
 				<li{if segment_2 == url_title} class="selected"{/if}{if segment_2=="" && count==1} class="selected"{/if}>
 					<a href="/{segment_1}/{url_title}">
+						{if article-type==="type-client"}
+							<span class="client-news-nav">Client News</span>
+						{/if}
 						<span class="title">{title}</span>
 					</a>
 				</li>

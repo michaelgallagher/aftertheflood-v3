@@ -37,6 +37,31 @@ body.article {
 		font-style: italic;
 		color: #fff;
 	}
+
+
+	.client-news {
+		color: $accent-color;
+		font-family: "futura-pt";
+		font-size: 1em;
+		letter-spacing: 0.08em;
+		line-height: 2.6em;
+		text-transform: uppercase;
+		border: 1px solid;
+		border-radius: 1px;
+		padding: 4px 7px 5px 8px;
+	}
+	.client-news-nav {
+		font-family: "futura-pt";
+		font-size: 0.9em;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		border: 1px solid;
+		border-radius: 1px;
+		padding-left: 4px;
+		padding-right: 2px;
+		margin-right: 4px;
+	}
+
 	.container h1 {
 		@include article-h1;
 	}
