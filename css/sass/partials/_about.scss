@@ -31,7 +31,6 @@ body.about {
 
 
 
-
 	.approach {
 		.approach-wrapper {
 			@include clearfix;
@@ -43,12 +42,6 @@ body.about {
 				padding-bottom: 69px;
 			}
 		}
-		.approach-title { // possibly delete this rule set?
-			//background-color: red;
-			//width: 100%;
-		}
-		/* rearranges the page at the medium size
-		   so that the three clusters sit side-by-side */
 		.approach-cluster {
 			@include gutters;
 			margin-top: 40px;
@@ -66,7 +59,7 @@ body.about {
 			}
 		}
 		.approach-content {
-			h2 {
+			/*h2 {
 				width: 100%;
 				clear: both;
 				padding-left: 0;
@@ -82,19 +75,38 @@ body.about {
 					margin-bottom: 20px;
 				}
 			}
-			h3 {
+			*/
+			h2 {
 				@include h2-small;
-				color: $gray-4;
-				padding-top: 15px;
+				width: 100%;
+				clear: both;
+				padding-left: 0;
+				padding-top: 0;
+				margin-top: 20px;
+				margin-bottom: 0;
 				@include breakpoint(medium) {
-					padding-top: 15px;
+					margin-top: 45px;
+					margin-bottom: 12px;
 				}
 				@include breakpoint(large) {
-					padding-top: 20px;
+					margin-top: 60px;
+					margin-bottom: 15px;
 				}
 			}
 			p {
 				padding-right: 10px;
+			}
+			ul {
+				padding: 10px 0;
+			}
+			li {
+				padding-left: 1em;
+				&:before {
+					display: inline-block;
+					content: "–";
+					width: 1em;
+					margin-left: -1em;
+				}
 			}
 		}
 	}
