@@ -4,20 +4,81 @@
 		<div class="section standfirst">
 			<div class="text">
 				{about-standfirst}
-				<div class="rule"></div>
 			</div>
 		</div>
 	{/if}
 	{if about-about-us}
 		<div class="section about-us">
-			<h2>About us</h2>
-			<div class="body">
-				{about-about-us}
+			<div class="rule-wrapper">
+				<div class="rule"></div>
+				<h2>About Us</h2>
+				<div class="body">
+					{about-about-us}
+				</div>
 			</div>
 		</div>
 	{/if}
+
+
+
+	<div class="approach">
+
+		<div class="section"> <!-- maybe the section bit should belong to the parent div? gets weird though -->
+			<div class="rule-wrapper"> <!-- this really shouldn't be necessary -->
+				<div class="rule"></div>
+			</div>
+			<h2 class="approach-title">Our Approach</h2>
+			<div class="body">
+				{about-approach-intro}
+			</div>
+		</div>
+
+		<!-- begin wrapper for the approach clusters -->
+		<div class="section approach-wrapper">
+					<div class="approach-cluster">
+						<div class="approach-diagram">
+							<img src="/images/site/approach-1-discovery.svg" alt="Approach: Discovery">
+						</div>
+						<div class="approach-content">
+							<h2>Discovery</h2>
+							{if about-approach-discovery}
+								{about-approach-discovery}
+							{/if}
+						</div>
+					</div>
+					<div class="approach-cluster">
+						<div class="approach-diagram">
+							<img src="/images/site/approach-2-design.svg" alt="Approach: Design">
+						</div>
+						<div class="approach-content">
+							<h2>Design</h2>
+							{if about-approach-design}
+								{about-approach-design}
+							{/if}
+						</div>
+					</div>
+					<div class="approach-cluster">
+						<div class="approach-diagram">
+							<img src="/images/site/approach-3-delivery.svg" alt="Approach: Delivery">
+						</div>
+						<div class="approach-content">
+							<h2>Delivery</h2>
+							{if about-approach-delivery}
+								{about-approach-delivery}
+							{/if}
+						</div>
+					</div>
+		</div>
+		<!-- end wrapper for the approach clusters -->
+
+	</div>
+	<!-- end approach -->
+
 	{if about-people}
 		<div class="section people">
+			<div class="rule-wrapper">
+				<div class="rule"></div>
+			</div>
 			<h2>People</h2>
 			<div class="body">
 				{about-people}
