@@ -1467,6 +1467,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/futurecity-comparisons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6506,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-comparisons.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-comparisons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-elements.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3799,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-elements.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-elements.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4331,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-hero.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-slides-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4083,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-1.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-slides-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5367,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-2.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-slides-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5293,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-3.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-slides-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6408,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-4.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-slides-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5472,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-5.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-slides-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-storypoints-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4964,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-storypoints-1.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-storypoints-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-storypoints-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6604,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-storypoints-2.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-storypoints-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/futurecity-storypoints.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5678,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-storypoints.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/futurecity-storypoints.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/GDS-ALL.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2345,6 +2466,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/new-profiler.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2680,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/new-profiler.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/new-profiler.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/number-10-hero-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2363,6 +2495,28 @@
 		"initialSize": 2446,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/number10a.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/number10a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/old-profiler.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2567,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/old-profiler.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/old-profiler.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/old-to-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3618,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/old-to-new.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/old-to-new.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4622,6 +4776,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/futurecity-comparisons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140171,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-comparisons.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-comparisons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-elements.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204706,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-elements.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-elements.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67324,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-hero.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-slides-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98945,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-1.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-slides-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112039,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-2.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-slides-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105113,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-3.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-slides-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152292,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-4.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-slides-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120495,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-5.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-slides-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-storypoints-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132409,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-storypoints-1.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-storypoints-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-storypoints-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111744,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-storypoints-2.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-storypoints-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/futurecity-storypoints.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56060,
+		"inputAbbreviatedPath": "\/downloads\/images\/futurecity-storypoints.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/futurecity-storypoints.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/GDS-ALL.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5491,6 +5766,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/new-profiler.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112172,
+		"inputAbbreviatedPath": "\/downloads\/images\/new-profiler.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/new-profiler.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/number-10-hero-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5509,6 +5795,28 @@
 		"initialSize": 461209,
 		"inputAbbreviatedPath": "\/downloads\/images\/number10a.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/number10a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/old-profiler.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122776,
+		"inputAbbreviatedPath": "\/downloads\/images\/old-profiler.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/old-profiler.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/old-to-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59584,
+		"inputAbbreviatedPath": "\/downloads\/images\/old-to-new.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/old-to-new.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6830,56 +7138,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/header-test\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/holding-tank\/new about stuff\/_about.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/holding-tank\/new about stuff\/_about.scss",
-		"outputAbbreviatedPath": "\/holding-tank\/_about.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/holding-tank\/new about stuff\/about-index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/holding-tank\/new about stuff\/about-index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/holding-tank\/old about stuff\/_about.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/holding-tank\/old about stuff\/_about.scss",
-		"outputAbbreviatedPath": "\/holding-tank\/_about.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/holding-tank\/old about stuff\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/holding-tank\/old about stuff\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10174,6 +10432,237 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/futurecity-comparisons_1500_499_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113060,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-comparisons_1500_499_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-comparisons_1500_499_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-comparisons_1500_504_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99222,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-comparisons_1500_504_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-comparisons_1500_504_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-comparisons_1500_730_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158596,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-comparisons_1500_730_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-comparisons_1500_730_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-elements_1500_420_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88463,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-elements_1500_420_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-elements_1500_420_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_1000_1000_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31270,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1000_1000_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1000_1000_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_1000_1000_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33321,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1000_1000_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1000_1000_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_1500_1000_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45050,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1500_1000_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1500_1000_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_1500_1000_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50588,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1500_1000_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_1500_1000_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_600_600_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14893,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_600_600_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_600_600_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_600_600_60_ffffff_c1_l_ t.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15496,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_600_600_60_ffffff_c1_l_ t.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-hero_650_365_c1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174799,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_650_365_c1.png",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-hero_650_365_c1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-slides-1_1500_1060_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119197,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-1_1500_1060_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-1_1500_1060_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-slides-2_1500_1060_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154491,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-2_1500_1060_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-2_1500_1060_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-slides-3_1500_1060_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151561,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-3_1500_1060_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-3_1500_1060_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-slides-4_1500_1060_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171590,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-4_1500_1060_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-4_1500_1060_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-slides-5_1500_1060_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150186,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-5_1500_1060_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-slides-5_1500_1060_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-storypoints-1_1500_1610_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198186,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-1_1500_1610_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-1_1500_1610_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-storypoints-1_1500_2012_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 289606,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-1_1500_2012_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-1_1500_2012_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-storypoints-2_1499_1271_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200785,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-2_1499_1271_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-2_1499_1271_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-storypoints-2_1500_1017_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136639,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-2_1500_1017_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints-2_1500_1017_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/futurecity-storypoints_1000_707_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90210,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints_1000_707_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/futurecity-storypoints_1000_707_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/GDS-ALL_1500_750_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12858,6 +13347,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/new-profiler_800_800_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49570,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/new-profiler_800_800_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/new-profiler_800_800_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/new-profiler_812_812_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54339,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/new-profiler_812_812_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/new-profiler_812_812_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/number-10-hero-1_1000_1000_60_ffffff_c1_c_ t.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13371,6 +13882,39 @@
 		"initialSize": 109744,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/number10a_720_1080_80_c1_c_c.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/number10a_720_1080_80_c1_c_c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/old-profiler_800_800_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52085,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/old-profiler_800_800_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/old-profiler_800_800_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/old-profiler_812_812_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57470,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/old-profiler_812_812_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/old-profiler_812_812_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/old-to-new_1500_596_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67222,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/old-to-new_1500_596_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/old-to-new_1500_596_80_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

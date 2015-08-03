@@ -39,7 +39,7 @@ if ($_SERVER['HTTP_HOST'] == 'aftertheflood.co' || $_SERVER['HTTP_HOST'] == 'www
 	// settings for LOCAL server
 	$db['expressionengine']['hostname'] = "localhost";
 	$db['expressionengine']['username'] = "root";
-	$db['expressionengine']['password'] = "aft3rth3fl00d";
+	$db['expressionengine']['password'] = "9a11a9h3r";
 	$db['expressionengine']['database'] = "atf3";
 	$db['expressionengine']['cachedir'] = "/Users/atf-noah/Sites/aftertheflood.dev/admin/expressionengine/cache/db_cache/";
 }
